@@ -1,0 +1,169 @@
+{
+ "alternate value": {
+  "rc": 0,
+  "stdout_b64": "W10gW10gW2FsdF0gW10gW2FsdF0gW2FsdF0K",
+  "tags": []
+ },
+ "arithmetic assignment ops": {
+  "rc": 0,
+  "stdout_b64": "MTUgMTIgMjQgNiAyIDIKOCA5IDEK",
+  "tags": []
+ },
+ "arithmetic comma": {
+  "rc": 0,
+  "stdout_b64": "Mwo=",
+  "tags": []
+ },
+ "arithmetic expansion": {
+  "rc": 0,
+  "stdout_b64": "MyAxMiAzIDEgMjU2CjYgNiA1IDYgNyA3CjkgMSAwIDEgNyA2IC02IDE2CjEwIDE2IDggNQo=",
+  "tags": []
+ },
+ "arithmetic negative and precedence": {
+  "rc": 0,
+  "stdout_b64": "LTMgLTEgLTMgMTQgMTAgNAoxIDAgMCAxCg==",
+  "tags": []
+ },
+ "arithmetic with unset and strings": {
+  "rc": 0,
+  "stdout_b64": "MCAxCjcK",
+  "tags": []
+ },
+ "assign default": {
+  "rc": 0,
+  "stdout_b64": "YXNzaWduZWQgYXNzaWduZWQKW10gY2hhbmdlZFtjaGFuZ2VkXQo=",
+  "tags": []
+ },
+ "at-ops": {
+  "rc": 0,
+  "stdout_b64": "J2EgYicgQSBCCg==",
+  "tags": []
+ },
+ "case modification": {
+  "rc": 0,
+  "stdout_b64": "SGVsbG8gV29ybGQgSEVMTE8gV09STEQgaGVsbG8gV29ybGQgaGVsbG8gd29ybGQK",
+  "tags": []
+ },
+ "default values": {
+  "rc": 0,
+  "stdout_b64": "ZGVmIGRlZiAgZGVmCnNldCBzZXQK",
+  "tags": []
+ },
+ "dollar edge cases": {
+  "rc": 0,
+  "stdout_b64": "JCAkIGEkICR4ICR4CiRsaXRlcmFsCg==",
+  "tags": []
+ },
+ "empty default inside double quotes is one empty field": {
+  "rc": 0,
+  "stdout_b64": "MQoxCjAKMQplbXB0eS1vawplbXB0eS1vazIK",
+  "tags": []
+ },
+ "error if unset": {
+  "rc": 0,
+  "stdout_b64": "c3RhdHVzPTEKc3RhdHVzPTEKYWZ0ZXIK",
+  "tags": []
+ },
+ "expansion in default is lazy": {
+  "rc": 0,
+  "stdout_b64": "Y29tcHV0ZWQK",
+  "tags": []
+ },
+ "glob basics": {
+  "rc": 0,
+  "stdout_b64": "YS50eHQgYi50eHQKYS50eHQgYi50eHQgYy5sb2cgY2FzZS5zaAouaGlkZGVuCmEudHh0IGIudHh0CmEudHh0IGIudHh0IGIudHh0Cioubm9tYXRjaAoqLnR4dCAqLnR4dCAqLnR4dAo=",
+  "tags": []
+ },
+ "glob from variable": {
+  "rc": 0,
+  "stdout_b64": "ZjEgZjIKZioK",
+  "tags": []
+ },
+ "glob in subdirs": {
+  "rc": 0,
+  "stdout_b64": "ZDEveC5jIGQyL3ouYwpkMS9zdWIvCmQxL3guYyBkMi96LmMKZDEvIGQyLwo=",
+  "tags": []
+ },
+ "glob sorted": {
+  "rc": 0,
+  "stdout_b64": "MSBCIEMgX3ggYSBiIGNhc2Uuc2gK",
+  "tags": [
+   "posix"
+  ]
+ },
+ "indirect expansion": {
+  "rc": 0,
+  "stdout_b64": "dmFsdWUKYgo=",
+  "tags": []
+ },
+ "length": {
+  "rc": 0,
+  "stdout_b64": "NSAwCjMgMyAxCg==",
+  "tags": []
+ },
+ "nested expansion": {
+  "rc": 0,
+  "stdout_b64": "aW5uZXIgaW5uZXIteCBxdW90ZWQgaW5uZXIK",
+  "tags": []
+ },
+ "no glob after set -f": {
+  "rc": 0,
+  "stdout_b64": "ZyoKZzEgZzIK",
+  "tags": []
+ },
+ "nullglob": {
+  "rc": 0,
+  "stdout_b64": "ZG9uZQoqLnp6ego=",
+  "tags": []
+ },
+ "param in double quotes preserves spaces": {
+  "rc": 0,
+  "stdout_b64": "YV9fX2IK",
+  "tags": []
+ },
+ "pattern removal with classes": {
+  "rc": 0,
+  "stdout_b64": "MjNkZWYgZGVmIGFiYyBhYmMxMjNkZQo=",
+  "tags": []
+ },
+ "prefix names": {
+  "rc": 0,
+  "stdout_b64": "YWJjMSBhYmMyCg==",
+  "tags": []
+ },
+ "prefix removal": {
+  "rc": 0,
+  "stdout_b64": "dXNyL2xvY2FsL2Jpbi90b29sLnRhci5neiB0b29sLnRhci5negovbG9jYWwvYmluL3Rvb2wudGFyLmd6IC91c3IvbG9jYWwvYmluL3Rvb2wudGFyLmd6Cmd6IHRhci5nego=",
+  "tags": []
+ },
+ "quote removal in patterns": {
+  "rc": 0,
+  "stdout_b64": "cXVvdGVkLW1hdGNoCm5vLW1hdGNoCnVucXVvdGVkLW1hdGNoCg==",
+  "tags": []
+ },
+ "quoted vs unquoted default": {
+  "rc": 0,
+  "stdout_b64": "MwoxCg==",
+  "tags": []
+ },
+ "replace": {
+  "rc": 0,
+  "stdout_b64": "YnllIHdvcmxkIGhlbGxvIGJ5ZSB3b3JsZCBieWUKU1RBUlQgd29ybGQgaGVsbG8gaGVsbG8gd29ybGQgRU5ECmhlbGwgd29ybGQgaGVsbG8gaGVsbCB3cmxkIGhlbGwKaGVsbG9fd29ybGRfaGVsbG8KaCpsbCogdypybGQgaCpsbCoK",
+  "tags": []
+ },
+ "replace with slash and vars": {
+  "rc": 0,
+  "stdout_b64": "YTpiOmMgYS1iLWMK",
+  "tags": []
+ },
+ "substring": {
+  "rc": 0,
+  "stdout_b64": "MjM0NTY3ODkgMjM0IDc4OSA3OCAwIDg5CjIzNDU2Nwo0NTY3ODkgNTYK",
+  "tags": []
+ },
+ "suffix removal": {
+  "rc": 0,
+  "stdout_b64": "L3Vzci9sb2NhbC9iaW4gfAovdXNyL2xvY2FsL2Jpbi90b29sLnRhciAvdXNyL2xvY2FsL2Jpbi90b29sCi91c3IvbG9jYWwvYmluL3Rvb2wudGFyLiAvdXNyL2xvY2FsL2Jpbi90b29sLnRhci5nego=",
+  "tags": []
+ }
+}

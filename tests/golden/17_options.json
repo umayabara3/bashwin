@@ -1,0 +1,112 @@
+{
+ "arithmetic remaining": {
+  "rc": 0,
+  "stdout_b64": "MSAxNyA1IDQgNAo0CjIwCjIyCjMgOSAxCjY0IDE1IDkgOQoyIDMK",
+  "tags": []
+ },
+ "case conversion operators": {
+  "rc": 0,
+  "stdout_b64": "SEVMTE8gV09STEQgaGVsbG8gd29ybGQgSGVsbG8gV29ybGQK",
+  "tags": []
+ },
+ "cp and mv options": {
+  "rc": 0,
+  "stdout_b64": "b2xkCm9sZApkc3QKc3JjCmIKbTEKbmV3CidzcmMnIC0+ICd2X2NvcHknCnJlbmFtZWQgJ3ZfY29weScgLT4gJ3ZfbW92ZWQnCg==",
+  "tags": []
+ },
+ "date more options": {
+  "rc": 0,
+  "stdout_b64": "VHVlLCAxNCBOb3YgMjAyMyAyMjoxMzoyMCArMDAwMAoyMDIzLTExLTE0CjIwMjMtMTEtMTRUMjI6MTM6MjArMDA6MDAKMjAyNi0wMy0wNCAwNTowNjowNwoyMDI2MDEwMjAzMDQKc2FtZS1tdGltZQoyMDI2LTExLTE2CjEKMjAyNi0xMS0xNQoxMTozMAoyMDI2LTEyLTE1CjIwMjUtMTEtMTUKMTQgMTEgMjIgMTR8MjJ8MTB8MjB8MjN8MjAyM3w0Nnw0Nnw0NnxOb3Z8Cgl8JQo=",
+  "tags": []
+ },
+ "declare -g and -p inside function": {
+  "rc": 0,
+  "stdout_b64": "NwpnbG9iYWwgW3Vuc2V0XQpkZWNsYXJlIC0tIEc9Imdsb2JhbCIK",
+  "tags": []
+ },
+ "diff options": {
+  "rc": 0,
+  "stdout_b64": "QEAgLTIsMyArMiwzIEBACiBiCi1jCitYCiBkCkZpbGVzIGQxIGFuZCBkMSBhcmUgaWRlbnRpY2FsCnN0PTAKc3Q9MQoyCg==",
+  "tags": []
+ },
+ "find more predicates": {
+  "rc": 0,
+  "stdout_b64": "Zi9hLnR4dApmL2EudHh0CmYvYi5UWFQKZi9zdWIvYy50eHQKZi9hLnR4dApmL3N1Yi9jLnR4dApmL3N1YgpmL2EudHh0CmYvYi5UWFQKZi9zdWIvYy50eHQKZi90d28KNApmL2EudHh0CmYvdHdvCmYvdHdvCjQKMApmL3N1Yi9jLnR4dApmL3R3bwo=",
+  "tags": []
+ },
+ "grep remaining options": {
+  "rc": 0,
+  "stdout_b64": "YWxwaGEKZ2FtbWEKYWxwaGEKc3Q9MgpwYXRzCjEKMTphbHBoYQoyOmJldGEKYmV0YQozCmFscGhhCmJldGEKZ2FtbWEKYmV0YQo=",
+  "tags": []
+ },
+ "inherit_errexit": {
+  "rc": 0,
+  "stdout_b64": "W2NvbnRpbnVlZF0K",
+  "tags": []
+ },
+ "nl seq paste od variants": {
+  "rc": 0,
+  "stdout_b64": "ICAgICAxCWEKICAgICAyCQogICAgIDMJYgoxMDogYQoxMTogYgowMDEKMDAyCjAwMwozIDIgMQoxIDIKMyA0CiA0MSA0MgowMDAwMDAwIDEwMSAxMDIgMDEyCjAwMDAwMDMKMDAwMDAwMCAgIEEgICBCICAgQyAgIEQgICBFICAgRiAgIEcgICBIICAgSSAgIEogICBLICAgTCAgIE0gICBOICAgTyAgIFAKMDAwMDAxNiAgIFEgICBSICAgUyAgIFQKMDAwMDAyMAowMDAwMDAwIDYyNjEgNjQ2MwowMDAwMDA0Cg==",
+  "tags": []
+ },
+ "printf and echo remaining": {
+  "rc": 0,
+  "stdout_b64": "ICAzLjF8YWJjICAgICB8KzEuMjNlKzA0CjEwMCBGRiAwWEZGIEEKICAgICAxCWEKICAgICAyCWIKeAl5QQo2NQozMQo4ClsgIDIuNTBdIFs3ICAgICBdIFswMDAyLjVdCmEgYiBjCmQgZSAKYVxuYiBjQQo=",
+  "tags": []
+ },
+ "read remaining options": {
+  "rc": 0,
+  "stdout_b64": "W2FiYwpkXQprIC0+IHYKb25lIHR3byBbXSBzdD0xCmZyb20gZmQgNwo0IGQK",
+  "tags": []
+ },
+ "readlink realpath basename remaining": {
+  "rc": 0,
+  "stdout_b64": "L3JwL3gvZgpzdD0xCi9ycC94L2YKL3JwL3gvZgpiCmQKYS9iCi4K",
+  "tags": []
+ },
+ "rm and mkdir verbose": {
+  "rc": 0,
+  "stdout_b64": "bWtkaXI6IGNyZWF0ZWQgZGlyZWN0b3J5ICd2ZCcKcmVtb3ZlZCAndmYnCnN0PTIK",
+  "tags": []
+ },
+ "sed remaining commands": {
+  "rc": 0,
+  "stdout_b64": "YwphIGIgYyBkIAphXHRiJAoyCmIKZCBjIGIgYSAKYSBiIGMgCngKYSxiLGMsZAphID4gYiA+IGMgZCAKZApiQW5BbkEKYVtiXWQKYiBjIAphIGMgCjMKcmVwbGFjZWQKdGFpbCBsaW5lCmhlYWQgbGluZQo=",
+  "tags": []
+ },
+ "set -a allexport and set -C": {
+  "rc": 0,
+  "stdout_b64": "ZXhwb3J0ZWQgTm9uZQo=",
+  "tags": []
+ },
+ "sh and bash invoked from a script": {
+  "rc": 0,
+  "stdout_b64": "Y2hpbGQ6IGNoaWxkLnNoIDEgW2EgYl0gWD11bnNldCBFPWV4cG9ydGVkCnN0PTQKY2hpbGQ6IC4vY2hpbGQuc2ggMCBbXSBYPXVuc2V0IEU9ZXhwb3J0ZWQKc3Q9NAppbmxpbmU6IG5hbWUgYXJnMSAyCnN0PTkKMwphZnRlci1mYWxzZQpiZWZvcmUKc3Q9MQpzdHJpY3QKc3Q9MQpmcm9tIHN0ZGluIHBhcmFtCnBpcGVkIHNjcmlwdApzeW50YXggc3Q9MApzeW50YXggc3Q9MgpbY2FwdHVyZWRdCnBhcmVudCBjd2QgaW50YWN0Cg==",
+  "tags": []
+ },
+ "shopt variants": {
+  "rc": 0,
+  "stdout_b64": "QWJjIGFiZAphYmQKLmRvdCBBYmMgYWJkIGNhc2Uuc2gKQWJjIGFiZCBjYXNlLnNoCgpzdD0xCg==",
+  "tags": []
+ },
+ "timeout and env options": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MTM3CnN0PTAKc3Q9MQpbJ0EnXQoyCg==",
+  "tags": []
+ },
+ "touch stat du tar remaining": {
+  "rc": 0,
+  "stdout_b64": "NSByZWd1bGFyIGZpbGUKc3oudHh0fDUKMQoyCmluLwppbi9mLnR4dApoaQpoaQoyCg==",
+  "tags": []
+ },
+ "wc uniq sort remaining": {
+  "rc": 0,
+  "stdout_b64": "MTgKQQpCCmEKYgphCiBiCiAgYwp4IDEwCnggOQp5IDEKYQozCmI6MgphOjEK",
+  "tags": []
+ },
+ "xargs more options": {
+  "rc": 0,
+  "stdout_b64": "YQpiCmMKbGluZTogbDEgeApsaW5lOiBsMiB5CmVjaG8gcCBxCnAgcQoyCjEK",
+  "tags": []
+ }
+}

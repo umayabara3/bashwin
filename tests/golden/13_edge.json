@@ -1,0 +1,346 @@
+{
+ "argument passing to external preserves bytes": {
+  "rc": 0,
+  "stdout_b64": "WycnLCAnYSBiJywgJ3RhYlx0eCcsICdxInVvdGUnLCAicydxIiwgJ3N0YXIqJywgJyRkb2xsYXInLCAnYmFja1xcc2xhc2gnLCAn5pel5pys6KqeJ10K",
+  "tags": []
+ },
+ "arithmetic division by zero": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MQpjb250aW51ZXMK",
+  "tags": []
+ },
+ "arithmetic edge cases": {
+  "rc": 0,
+  "stdout_b64": "MyAtMyAxIDEwMjQgNDYxMTY4NjAxODQyNzM4NzkwNAotOTIyMzM3MjAzNjg1NDc3NTgwOAo5MjIzMzcyMDM2ODU0Nzc1ODA3IC05MjIzMzcyMDM2ODU0Nzc1ODA4CjIgMyA1CjEwIDUKMzQgMjU1IDM1IDE1CjE1IDEzIDUgNTEyCjEgLTEgMSAxCg==",
+  "tags": []
+ },
+ "arithmetic with spaces and newlines": {
+  "rc": 0,
+  "stdout_b64": "MwppbnJhbmdlCg==",
+  "tags": []
+ },
+ "array holes and iteration order": {
+  "rc": 0,
+  "stdout_b64": "dHdvIGZpdmUgbmluZSAyIDUgOSAzCjI6dHdvIDU6Zml2ZSA5Om5pbmUgCjIgNSA5IDEwCg==",
+  "tags": []
+ },
+ "array quoting forms": {
+  "rc": 0,
+  "stdout_b64": "PGEgYj48PjxjPgo8YSBiICBjPgo8YT48Yj48Yz4KPHhhIGI+PD48Y3k+CjxwcmUtYSBiPjxwcmUtPjxwcmUtYz4K",
+  "tags": []
+ },
+ "assignment with command and special chars": {
+  "rc": 0,
+  "stdout_b64": "aG9zdDo4MDgwCmhvc3QgODA4MAprZXkgdmFsdWU9d2l0aD1lcXVhbHMK",
+  "tags": []
+ },
+ "background jobs ordering with wait": {
+  "rc": 0,
+  "stdout_b64": "Zmlyc3QKc2Vjb25kCnRoaXJkCg==",
+  "tags": []
+ },
+ "backslash handling": {
+  "rc": 0,
+  "stdout_b64": "YSBcICQgIiAnClxhIFwgJCAiIFxuClxhIFxcIFwkCmFiCnhcbnkKeFxueQp4bnkK",
+  "tags": []
+ },
+ "case inside command substitution with unbalanced paren": {
+  "rc": 0,
+  "stdout_b64": "c3RhcnRzLWEK",
+  "tags": []
+ },
+ "colon in parameter and ternary-like idioms": {
+  "rc": 0,
+  "stdout_b64": "ZGVmYXVsdApiaWcKc2V0Cg==",
+  "tags": []
+ },
+ "command substitution strips only trailing newlines": {
+  "rc": 0,
+  "stdout_b64": "MDAwMDAwMCBbIFxuIFxuIG0gaSBkIF0gXG4KMDAwMDAxMAo0Cg==",
+  "tags": []
+ },
+ "comments in odd places": {
+  "rc": 0,
+  "stdout_b64": "YQpub3QgIyBhIGNvbW1lbnQgbm9yICMgdGhpcyBub3QjdGhpcyBhI2IKaW4taWYKMQoyCmN4Cg==",
+  "tags": []
+ },
+ "cut and tr combos": {
+  "rc": 0,
+  "stdout_b64": "YS1jCm1hbnkgc3BhY2VzCmJjZGYKYWMKMTIzCmhpcHBvCmEsYgo=",
+  "tags": []
+ },
+ "deep nesting of substitutions": {
+  "rc": 0,
+  "stdout_b64": "ZGVlcAoxMwoxMyBmYWxsYmFjawo=",
+  "tags": []
+ },
+ "dollar quoting variants": {
+  "rc": 0,
+  "stdout_b64": "dmFsIHZhbCB2YWx5IHZhbHkgICR4ICR4ICR4CnZhbHZhbHZhbAp2YWx2YWwK",
+  "tags": []
+ },
+ "dollar-question in various spots": {
+  "rc": 0,
+  "stdout_b64": "MQoxIDEKb2sKc3QgaW4gZ3JvdXA6IDEKMQo=",
+  "tags": []
+ },
+ "echo corner cases": {
+  "rc": 0,
+  "stdout_b64": "CmFBXDEwMUEKCXRhYlxuCi0gLS0gLXgKCngKCnEK",
+  "tags": []
+ },
+ "empty and whitespace args": {
+  "rc": 0,
+  "stdout_b64": "NQoxCjIKMQowCjAK",
+  "tags": []
+ },
+ "eval with quotes and variables": {
+  "rc": 0,
+  "stdout_b64": "W3ggeV0Kc2luZ2xlIHF1b3RlZCBkb3VibGUgeCB5ClggWQpkeW4K",
+  "tags": []
+ },
+ "exec with redirection persists": {
+  "rc": 0,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "exit status propagation": {
+  "rc": 0,
+  "stdout_b64": "emVybwpvbmUKMjU1CjAKc3ViIDMKMAowCg==",
+  "tags": []
+ },
+ "exit trap sees status and can change it": {
+  "rc": 9,
+  "stdout_b64": "c2F3IDQK",
+  "tags": []
+ },
+ "export and subprocess env details": {
+  "rc": 0,
+  "stdout_b64": "J3dpdGggc3BhY2UnIEZhbHNlCkZhbHNlCngKRmFsc2UK",
+  "tags": []
+ },
+ "exported empty variable": {
+  "rc": 0,
+  "stdout_b64": "JycK",
+  "tags": [
+   "posix"
+  ]
+ },
+ "find and loops with spaces safe": {
+  "rc": 0,
+  "stdout_b64": "PGQgMS9mIGE+CjxkIDEvc3ViL2YgYj4KZiBhCmYgYgoyCg==",
+  "tags": []
+ },
+ "glob chars in variables and quoting": {
+  "rc": 0,
+  "stdout_b64": "W2EgYi50eHRdCltjLnR4dF0KW2EgYi50eHRdCltjLnR4dF0KWyoudHh0XQpjLnR4dCBbYWJjXS50eHQgW2FiY10udHh0CmMudHh0Cg==",
+  "tags": []
+ },
+ "glob with special names": {
+  "rc": 0,
+  "stdout_b64": "LWRhc2gKaGFzKnN0YXIKW2JyYWNrZXRdCnE/bWFyawo=",
+  "tags": [
+   "posix"
+  ]
+ },
+ "grep more options": {
+  "rc": 0,
+  "stdout_b64": "MwoxCjE6Zm9vCjM6Zm9vYmFyCjMKYmFyCmZvb2Jhcgpvbwpvbwpmb28KMwpmb28KYS5iCmEqYgphYgpbeF0KMQo=",
+  "tags": []
+ },
+ "heredoc edge cases": {
+  "rc": 0,
+  "stdout_b64": "ICBsZWFkaW5nIHNwYWNlcyBrZXB0Cgl0YWIga2VwdApjbWQgc3ViCiRlc2NhcGVkIFxiYWNrc2xhc2ggYHRpY2tgCiJxdW90ZXMiICdrZXB0JwozCm5vICRleHBhbnNpb24gYGhlcmVgIFxuCg==",
+  "tags": []
+ },
+ "heredoc with variables containing special chars": {
+  "rc": 0,
+  "stdout_b64": "W2EkYmBjXGQiZV0K",
+  "tags": []
+ },
+ "if with complex conditions": {
+  "rc": 0,
+  "stdout_b64": "YzEKYzIKYzMKYzQKYzUK",
+  "tags": []
+ },
+ "integer comparisons with leading zeros and negatives": {
+  "rc": 0,
+  "stdout_b64": "ZGVjCm9jdApuZWcKbnVtZXJpYwpsZXhpY2FsCg==",
+  "tags": []
+ },
+ "length and substring with multibyte": {
+  "rc": 0,
+  "stdout_b64": "NiDml6XmnKwgYWJjIGFiYyDml6VY6KqeYWJjIOaXpeacrOiqniDmnKzoqp5hYmMK",
+  "tags": []
+ },
+ "local and unset interplay": {
+  "rc": 0,
+  "stdout_b64": "YWZ0ZXIgdW5zZXQ6IFtlbXB0eV0KZ2xvYmFsClt1bnNldF0KW3NldF0KZ2xvYmFsCg==",
+  "tags": []
+ },
+ "long pipelines and many args": {
+  "rc": 0,
+  "stdout_b64": "NTAwCjMwMAoxMDAKMjAwIDIwMCAxMDAK",
+  "tags": []
+ },
+ "multiple heredocs and redirects": {
+  "rc": 0,
+  "stdout_b64": "dXNlZAp0byBmaWxlCg==",
+  "tags": []
+ },
+ "nameref and function export are refused loudly": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MCB2PT8K",
+  "tags": []
+ },
+ "nested arrays and indirection": {
+  "rc": 0,
+  "stdout_b64": "eiB4IHkgCnkKeiB6IHkgeAo=",
+  "tags": []
+ },
+ "nested functions and variable scope": {
+  "rc": 0,
+  "stdout_b64": "aW5uZXIgdj0yCm91dGVyIHY9MgpnbG9iYWwgdj1bdW5zZXRdCmlubmVyIHY9MQpnbG9iYWwgdj1bMV0K",
+  "tags": []
+ },
+ "nullglob does not eat the test bracket or unterminated brackets": {
+  "rc": 0,
+  "stdout_b64": "YnJhY2tldCBjb21tYW5kIHN1cnZpdmVzIG51bGxnbG9iCm9rClsgYSBbYiBjXSBkWwp8IHwgeFsKMApbIFthYmMgW3p6el0KYSBiIGEgYiBiCg==",
+  "tags": []
+ },
+ "parameter expansion on special values": {
+  "rc": 0,
+  "stdout_b64": "b25lIHR3byBUSFJFRSA3IHRocmVlIG9uZSB0d28KdGhyZWUgb25lIHR3bwovYS9iIC9hL2IgYS9iLwphLmIgYy5kCg==",
+  "tags": []
+ },
+ "pattern matching variety": {
+  "rc": 0,
+  "stdout_b64": "YWJjOnEKYS5jOnEKYS9jOnEKYSBjOnEKQUJDOnVwcGVyCmFiYzEyMzpkaWdpdAptdWx0aS1zdGFyCmNsYXNzZXMKZGFzaC1jbGFzcwpyYnJhY2tldAo=",
+  "tags": []
+ },
+ "pipefail with early exit consumers": {
+  "rc": 0,
+  "stdout_b64": "MQpzdD0wCnN0PTAK",
+  "tags": []
+ },
+ "pipeline with functions and loops": {
+  "rc": 0,
+  "stdout_b64": "bj0zCjYK",
+  "tags": []
+ },
+ "positional params in functions and set": {
+  "rc": 0,
+  "stdout_b64": "bmV3MSAyCm9sZCAxCjEKY2FzZS5zaAo=",
+  "tags": []
+ },
+ "printf corner cases": {
+  "rc": 0,
+  "stdout_b64": "YXx8CjV8MAogICBhYnxjZCAgIHwwMDA0MnwrN3wgNwoyIDIuMiAgIDMuMQptdWx0aQpsaW5lCiV8eHwgICAgcXwKdGFiCWhlcmVcbiBsaXRlcmFsCmEKYgowMDc6MDUKMDEyOjMwCmFcIGIgJycKZmYgMTAgRkYgMHhmZiAwMTAKICAgICAzLjE0MnwKMy4xNDIgICAgIHwKLW4KLWUKLS0K",
+  "tags": []
+ },
+ "quoting inside command substitution inside quotes": {
+  "rc": 0,
+  "stdout_b64": "YSBCIEMgRCBlCikgKAptYXRjaGVkCmlubmVyIG5lc3RlZAo=",
+  "tags": []
+ },
+ "read corner cases": {
+  "rc": 0,
+  "stdout_b64": "WzFdWzJdW10KWzFdWzIgMyA0XQpbc3BhY2VkXQpbeF1bXVt6XQpbeF1beV0KW3hdW3ksLF0KW11bbGVhZF0KW10gc3Q9MApbbm8gbmV3bGluZV0gc3Q9MQo=",
+  "tags": []
+ },
+ "read from fd while running commands": {
+  "rc": 0,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "replace special characters": {
+  "rc": 0,
+  "stdout_b64": "YS1iXGMkZCplIGEvYi1jJGQqZSBhL2JcYy1kKmUgYS9iXGMkZC1lCmhlTGxvIGhlTExvIEhlbGxvIGhlbGxPIGhlbGxvIC4uLi4uCmFiYyBhX19iX19jCg==",
+  "tags": []
+ },
+ "sed more complex scripts": {
+  "rc": 0,
+  "stdout_b64": "MTphCjI6Ygp0d28gb25lIDMKeQpiCmMKYQozCkhlbGxvCkhlbGxvIFdvcmxkCmwxCiMgbDIKbDMKYSBiIGMKeAphcHBlbmRlZAoiayI6ICJ2Igo=",
+  "tags": []
+ },
+ "set -e in complex script": {
+  "rc": 0,
+  "stdout_b64": "ZiBzdGFydApmIGVuZAppPTIKbmVnCnJlYWNoZWQgZW5kCg==",
+  "tags": []
+ },
+ "shift in loops": {
+  "rc": 0,
+  "stdout_b64": "YSg0KSBiKDMpIGMoMikgZCgxKSAKMTIzCg==",
+  "tags": []
+ },
+ "sort numeric and mixed": {
+  "rc": 0,
+  "stdout_b64": "LTEKCmFiYwowLjUKMgoxMAoyIGEKMiBiCjEwIGEKYywxCmIsMgphLDEwClgKWQp4CnkKc3Q9MQpzdD0wCg==",
+  "tags": []
+ },
+ "stdin inheritance in loops": {
+  "rc": 0,
+  "stdout_b64": "bGluZSBhCmxpbmUgYQpsaW5lIGIKbGluZSBjCg==",
+  "tags": []
+ },
+ "string comparison operators": {
+  "rc": 0,
+  "stdout_b64": "bGV4CnNhbWUKY2FzZS1zZW5zCnRlc3QtbHQKem4KdW5zZXQtZW1wdHkK",
+  "tags": []
+ },
+ "string to array by IFS and back": {
+  "rc": 0,
+  "stdout_b64": "MwphLWItYwphLGIsYwo=",
+  "tags": []
+ },
+ "subshell variable and cd isolation in pipelines": {
+  "rc": 0,
+  "stdout_b64": "eD0xCmluOiBkYXRhCm91dDogMQppbnNpZGUKY3dkIGlzb2xhdGVkCg==",
+  "tags": []
+ },
+ "test with tricky strings": {
+  "rc": 0,
+  "stdout_b64": "ZGFzaC1mCnBhcmVuCmJhbmcKYm90aC1lbXB0eQphbmQKZXEtZXEK",
+  "tags": []
+ },
+ "trap with functions and signals list": {
+  "rc": 0,
+  "stdout_b64": "dHJhcCAtLSAnY2xlYW51cCcgRVhJVAp0cmFwIC0tICdlY2hvIGludCcgSU5UCnN1YiB0cmFwCmJlZm9yZS1leGl0CmNsZWFudXAgY2FsbGVkCg==",
+  "tags": []
+ },
+ "unset array elements in loop": {
+  "rc": 0,
+  "stdout_b64": "MSAzIDUKMCAxIDIK",
+  "tags": []
+ },
+ "unusual but valid syntax": {
+  "rc": 0,
+  "stdout_b64": "bm8tc3BhY2UKMQpicmFjZQpwYXJlbgphbmQKb3IKYQpiCjEyCmMKZm4Kdwo=",
+  "tags": []
+ },
+ "variable names edge": {
+  "rc": 0,
+  "stdout_b64": "MSAyIDMgNCAxeCAyeAo=",
+  "tags": []
+ },
+ "wait -n returns first finished job": {
+  "rc": 0,
+  "stdout_b64": "Zmlyc3Q9MwphbGwK",
+  "tags": []
+ },
+ "wc and counting idioms": {
+  "rc": 0,
+  "stdout_b64": "MiAzIDYKMwp6ZXJvLWxpbmVzCjEK",
+  "tags": []
+ },
+ "while read with IFS and -r preserving": {
+  "rc": 0,
+  "stdout_b64": "W2FcYiAgY10KWyAgZAllICBdClthXGIgIGNdCltkCWVdClthYiAgY10KW2QJZV0K",
+  "tags": []
+ },
+ "word splitting edge cases": {
+  "rc": 0,
+  "stdout_b64": "MjphOmIKMzp4OmEKMzphOmIKMTpbICBhICBiICB5XQoxOlsgIGEgIGIgIF0K",
+  "tags": []
+ }
+}

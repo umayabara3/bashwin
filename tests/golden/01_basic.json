@@ -1,0 +1,137 @@
+{
+ "IFS mixed whitespace": {
+  "rc": 0,
+  "stdout_b64": "PGE+CjxiPgo8Yz4KPD4KPGQ+Cg==",
+  "tags": []
+ },
+ "IFS splitting": {
+  "rc": 0,
+  "stdout_b64": "PGE+CjxiPgo8Pgo8Yz4KYSxiLGMKYSxiIGMKMgo=",
+  "tags": []
+ },
+ "adjacent quoting": {
+  "rc": 0,
+  "stdout_b64": "MSRhMXgxCgoyCg==",
+  "tags": []
+ },
+ "ansi-c quoting": {
+  "rc": 0,
+  "stdout_b64": "dGFiCWhlcmUKbGluZTEKbGluZTIKcXVvdGUncwpBQkEK",
+  "tags": []
+ },
+ "assignment forms": {
+  "rc": 0,
+  "stdout_b64": "Yj1jCi91c3IvYmluCmEgYiBjCmEgIGIgICBjCmEgIGIgICBjCg==",
+  "tags": []
+ },
+ "brace expansion": {
+  "rc": 0,
+  "stdout_b64": "YSBiIGMKeDF5IHgyeQoxIDIgMyA0IDUgNSA0IDMgMiAxIGEgYiBjIGQgZQowMSAwMiAwMyAxIDQgNyAxMAphMSBhMiBiMSBiMgpwcmVwb3N0IHByZW1pZHBvc3QKYSBiYyBiZAp7c2luZ2xlfSB7fSBhe2IK",
+  "tags": []
+ },
+ "command substitution": {
+  "rc": 0,
+  "stdout_b64": "aW5uZXIKYmFja3RpY2sKYQpiCm5lc3RlZDogZGVlcAp0cmFpbGluZyBuZXdsaW5lcyBzdHJpcHBlZDogW3hdCg==",
+  "tags": []
+ },
+ "comments and line continuation": {
+  "rc": 0,
+  "stdout_b64": "b25lCnR3byB0aHJlZQpmb3VyCmZpdmUKYSNiCg==",
+  "tags": []
+ },
+ "dollar-at vs dollar-star": {
+  "rc": 0,
+  "stdout_b64": "W2EgYl0KW2NdClthIGIgY10KW2FdCltiXQpbY10KW2FdCltiXQpbY10KY291bnQ9MAo=",
+  "tags": []
+ },
+ "dollar-at with prefix suffix": {
+  "rc": 0,
+  "stdout_b64": "W3ByZTFdClsyXQpbM3Bvc3RdCg==",
+  "tags": []
+ },
+ "echo options": {
+  "rc": 0,
+  "stdout_b64": "bm8tbmV3bGluZQphCWIKYwphXHRiCngKeQpzdG9wCi0tIC1uCg==",
+  "tags": []
+ },
+ "echo plain": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gd29ybGQKc3BhY2VkIG91dAoK",
+  "tags": []
+ },
+ "empty expansion removal": {
+  "rc": 0,
+  "stdout_b64": "MAoxCjEKMQo=",
+  "tags": []
+ },
+ "exit status of last command": {
+  "rc": 0,
+  "stdout_b64": "MwoyCjEyNwo=",
+  "tags": []
+ },
+ "long string": {
+  "rc": 0,
+  "stdout_b64": "MjAgYWJhYmFiYWJhYmFiYWJhYmFiYWIK",
+  "tags": []
+ },
+ "positional params": {
+  "rc": 0,
+  "stdout_b64": "YSBiIGogayAxMQphIGIgYyBkIGUgZiBnIGggaSBqIGsKYyA5CmQgZSBmIGcgaCBpIGogawo=",
+  "tags": []
+ },
+ "printf -v": {
+  "rc": 0,
+  "stdout_b64": "MDA3LXgK",
+  "tags": []
+ },
+ "printf basics": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8KYSBiCmMgZAo0MiAtNwogICAgMXwyICAgIHwwMDAwMwozLjE0IDEuMDAwMDAwZSswMwpmZiBGRiAxMAphZAolCm5vIG5ld2xpbmUK",
+  "tags": []
+ },
+ "printf reuse format": {
+  "rc": 0,
+  "stdout_b64": "YT0xCmI9MgpjPQoxCjIKMwo=",
+  "tags": []
+ },
+ "printf star width": {
+  "rc": 0,
+  "stdout_b64": "WyAgIDQyXQpbYWIgICAgXQo=",
+  "tags": []
+ },
+ "printf strings": {
+  "rc": 0,
+  "stdout_b64": "WyAgICAgcmlnaHRdW2xlZnQgICAgICBdClt0cnVdCgphCWIKYVwgYgppdFwncwpwbGFpbgpBQQphXG5iCg==",
+  "tags": []
+ },
+ "semicolons and newlines": {
+  "rc": 0,
+  "stdout_b64": "YQpiCmMKZAplCg==",
+  "tags": []
+ },
+ "single and double quotes": {
+  "rc": 0,
+  "stdout_b64": "c2luZ2xlICR4CmRvdWJsZSB3b3JsZApuZXN0ZWQgJ3NpbmdsZScgaW4gZG91YmxlCm5lc3RlZCAiZG91YmxlIiBpbiBzaW5nbGUKZXNjYXBlZCAicXVvdGUiIGFuZCAkZG9sbGFyIGFuZCBcIGJhY2tzbGFzaAphIGIgIGMK",
+  "tags": []
+ },
+ "special params": {
+  "rc": 0,
+  "stdout_b64": "MiBTQ1JJUFQKMAoxCjIK",
+  "tags": []
+ },
+ "tilde expansion": {
+  "rc": 0,
+  "stdout_b64": "L2hvbWUvdGVzdCAvaG9tZS90ZXN0L3ggfiB+Ci9ob21lL3Rlc3QveQphfmIK",
+  "tags": []
+ },
+ "variables basic": {
+  "rc": 0,
+  "stdout_b64": "MSB0d28gMXR3byAxdHdvCltdIFtdCltdCg==",
+  "tags": []
+ },
+ "word splitting": {
+  "rc": 0,
+  "stdout_b64": "PGE+CjxiPgo8Yz4KPGEgYiAgYz4KMwoxCg==",
+  "tags": []
+ }
+}

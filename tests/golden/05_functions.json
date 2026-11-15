@@ -1,0 +1,127 @@
+{
+ "FUNCNAME": {
+  "rc": 0,
+  "stdout_b64": "aW4gZgppbiBnIGZyb20gZgo=",
+  "tags": []
+ },
+ "command builtin bypass": {
+  "rc": 0,
+  "stdout_b64": "ZmFrZSBscwpleGlzdHMK",
+  "tags": []
+ },
+ "declare -f and type": {
+  "rc": 0,
+  "stdout_b64": "ZgpmdW5jdGlvbgpidWlsdGluCmtleXdvcmQKc3Q9MQo=",
+  "tags": []
+ },
+ "default args pattern": {
+  "rc": 0,
+  "stdout_b64": "ZGVmYXVsdCAKeCAKeCB5Cg==",
+  "tags": []
+ },
+ "define and call": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gd29ybGQKYWx0IGZvcm0KYm90aAo=",
+  "tags": []
+ },
+ "early return and cleanup pattern": {
+  "rc": 0,
+  "stdout_b64": "bm8gYXJnCjEKcHJvY2Vzc2luZyBpdGVtCjAK",
+  "tags": []
+ },
+ "function args": {
+  "rc": 0,
+  "stdout_b64": "MCBbXSBbXSBbXQoxIFthXSBbXSBbYV0KMiBbYSBiXSBbY10gW2EgYiBjXQo=",
+  "tags": []
+ },
+ "function in pipeline and subshell": {
+  "rc": 0,
+  "stdout_b64": "SEVMTE8KSU5ORVIK",
+  "tags": []
+ },
+ "function modifies positional of caller? no": {
+  "rc": 0,
+  "stdout_b64": "aW46IHkgegpvdXQ6IGEgYiBjCg==",
+  "tags": []
+ },
+ "function output capture": {
+  "rc": 0,
+  "stdout_b64": "W2NhcHR1cmVkIHZhbHVlXQo=",
+  "tags": []
+ },
+ "function overrides command": {
+  "rc": 0,
+  "stdout_b64": "d3JhcHBlZDogdGVzdApwbGFpbgo=",
+  "tags": []
+ },
+ "function sets global via printf -v": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gdGhlcmUK",
+  "tags": []
+ },
+ "function with redirection": {
+  "rc": 0,
+  "stdout_b64": "dG8gZmlsZQo=",
+  "tags": []
+ },
+ "functions and exit status chains": {
+  "rc": 0,
+  "stdout_b64": "cG9zaXRpdmUKbm90LXBvc2l0aXZlCm5vdC1udW1iZXIK",
+  "tags": []
+ },
+ "functions calling functions": {
+  "rc": 0,
+  "stdout_b64": "MwoyCjEK",
+  "tags": []
+ },
+ "large recursion depth": {
+  "rc": 0,
+  "stdout_b64": "cmVhY2hlZCAyMDAK",
+  "tags": []
+ },
+ "local array and nameless args": {
+  "rc": 0,
+  "stdout_b64": "MjogeCB5IHoKMD14CjE9eSB6Cg==",
+  "tags": []
+ },
+ "local shadows and dynamic scope": {
+  "rc": 0,
+  "stdout_b64": "aW5uZXIgc2VlcyBtaWRkbGUKaW5uZXIgc2VlcyBvdXRlcgo=",
+  "tags": []
+ },
+ "local variables": {
+  "rc": 0,
+  "stdout_b64": "bG9jYWwKZ2xvYmFsCmNoYW5nZWQKeT0xCnk9W10K",
+  "tags": []
+ },
+ "local with command substitution status": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MApzdD0xCg==",
+  "tags": []
+ },
+ "recursion": {
+  "rc": 0,
+  "stdout_b64": "MTIwCjM2Mjg4MDAKNTUK",
+  "tags": []
+ },
+ "recursion with accumulator (no subshell)": {
+  "rc": 0,
+  "stdout_b64": "NTA1MAo=",
+  "tags": []
+ },
+ "return from nested loops": {
+  "rc": 0,
+  "stdout_b64": "MWEKMWIKcmV0PTUK",
+  "tags": []
+ },
+ "return values": {
+  "rc": 0,
+  "stdout_b64": "MAo0MgoxCjAK",
+  "tags": []
+ },
+ "unset function": {
+  "rc": 0,
+  "stdout_b64": "ZgoxMjcK",
+  "tags": []
+ }
+}

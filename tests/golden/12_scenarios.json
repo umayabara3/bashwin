@@ -1,0 +1,112 @@
+{
+ "argument parsing with long options": {
+  "rc": 0,
+  "stdout_b64": "dmVyYm9zZT0xIG5hbWU9YWxpY2UgY291bnQ9MyBmaWxlcz1hLnR4dCAtYi50eHQgbj0yCg==",
+  "tags": []
+ },
+ "batch job wrapper with logging and exit code": {
+  "rc": 1,
+  "stdout_b64": "W0lORk9dIHN0YXJ0IGV4dHJhY3QKZXh0cmFjdGluZwpbSU5GT10gZW5kIGV4dHJhY3QgcmM9MApbSU5GT10gc3RhcnQgdHJhbnNmb3JtCltFUlJPUl0gZW5kIHRyYW5zZm9ybSByYz0xCltJTkZPXSBzdGFydCBsb2FkCmxvYWRpbmcKW0lORk9dIGVuZCBsb2FkIHJjPTAKZmluYWwgcmM9MQo=",
+  "tags": []
+ },
+ "checksum manifest verify": {
+  "rc": 0,
+  "stdout_b64": "YTogT0sKYjogT0sKYTogT0sKYjogRkFJTEVECnJjPTEK",
+  "tags": []
+ },
+ "config file parser": {
+  "rc": 0,
+  "stdout_b64": "aG9zdD1bZGIwMS5leGFtcGxlLmxvY2FsXQpwb3J0PVs1NDMyXQpuYW1lPVtwcm9kIGRiXQplbXB0eT1bXQpjb3VudD00Cg==",
+  "tags": []
+ },
+ "csv aggregation report": {
+  "rc": 0,
+  "stdout_b64": "ZWFzdCAgIHRvdGFsPSA1NTAgY291bnQ9MyBhdmc9MTgzCndlc3QgICB0b3RhbD0gMjUwIGNvdW50PTIgYXZnPTEyNQpncmFuZD04MDAK",
+  "tags": []
+ },
+ "date-stamped archive names": {
+  "rc": 0,
+  "stdout_b64": "YmFja3VwXzIwMjUxMTE1XzAwMDAwMC50YXIuZ3oKYmFja3VwXzIwMjUxMTE2XzAwMDAwMC50YXIuZ3oKYmFja3VwXzIwMjUxMTE3XzAwMDAwMC50YXIuZ3oKbW9udGg9MjAyNS0xMQpwcmV2X21vbnRoX2VuZD0yMDI1LTEwLTMxCg==",
+  "tags": []
+ },
+ "directory sync and compare": {
+  "rc": 0,
+  "stdout_b64": "VVBEIC4vYS50eHQKTkVXIC4vc3ViL2IudHh0CkVYVFJBIC4vc3RhbGUudHh0CmEKYgo=",
+  "tags": []
+ },
+ "error summary from log": {
+  "rc": 0,
+  "stdout_b64": "ZXJyb3JzOiAzCjIgZGIgdGltZW91dAoxIGRpc2sgZnVsbApFUlJPUj0zIElORk89MiBXQVJOPTEgCmZpcnN0PTIwMjYtMTEtMTUgMDE6MDA6MDIgbGFzdD0yMDI2LTExLTE1IDAxOjAwOjA1CkFMRVJUOiBkaXNrCg==",
+  "tags": []
+ },
+ "fixed-width record processing": {
+  "rc": 0,
+  "stdout_b64": "MXxBTElDRXwxMjAuNTAKMnxCT0J8OS45OQozfENBUk9MfDEwMDAuMDAK",
+  "tags": []
+ },
+ "function library with namespacing": {
+  "rc": 0,
+  "stdout_b64": "W3ggeV0KYSxiLGMKcCBxfHIKeWVzCm5vCnJjPTEK",
+  "tags": []
+ },
+ "job dependency runner": {
+  "rc": 0,
+  "stdout_b64": "ZXh0cmFjdCB0cmFuc2Zvcm0gbG9hZCByZXBvcnQK",
+  "tags": []
+ },
+ "lock file and cleanup trap": {
+  "rc": 0,
+  "stdout_b64": "bG9jayBoZWxkCndvcmtpbmcKY2xlYW51cCByYz0wCg==",
+  "tags": []
+ },
+ "log rotation": {
+  "rc": 0,
+  "stdout_b64": "YXBwLmxvZwphcHAubG9nLjEKYXBwLmxvZy4yCmFwcC5sb2cuMwpjdXJyZW50CmxvZyAxCmxvZyAyCjAK",
+  "tags": []
+ },
+ "menu dispatch table": {
+  "rc": 0,
+  "stdout_b64": "c3RhcnRpbmcgc3ZjMSBzdmMyCnN0b3BwaW5nCnN0YXR1cyBvawpyYz0zCnVua25vd246IGJvZ3VzCnJjPTEyNwo=",
+  "tags": []
+ },
+ "parallel workers with result collection": {
+  "rc": 0,
+  "stdout_b64": "MSA1NQoyIDIxMAozIDQ2NQo0IDgyMAp0b3RhbD0xNTUwCg==",
+  "tags": []
+ },
+ "retry with backoff": {
+  "rc": 0,
+  "stdout_b64": "cmV0cnkgMQpyZXRyeSAyCm9rIGFmdGVyIDMKcmV0cnkgMQpmYWlsZWQgYWZ0ZXIgMgpyYz0xCg==",
+  "tags": []
+ },
+ "sequence and zero padding": {
+  "rc": 0,
+  "stdout_b64": "ZmlsZV8xLmRhdApmaWxlXzIuZGF0CmZpbGVfMy5kYXQKMDggMDkgMTAgMTEgCjAwMDcKOQo=",
+  "tags": []
+ },
+ "stdin dispatch reading commands": {
+  "rc": 0,
+  "stdout_b64": "c3VtPTEyCmJhZCBjb21tYW5kOiBtdWwKc3VtPTEyCg==",
+  "tags": []
+ },
+ "strict script with sourced config and die": {
+  "rc": 9,
+  "stdout_b64": "dGFyZ2V0PWRiMDEgZW52PXByb2Qga2VlcD03ZAp0YXJnZXQ9ZGIwMiBlbnY9cHJvZCBrZWVwPTdkCm9wdGlvbmFsPVtdCkVSUk9SOiBpbnRlbnRpb25hbCBzdG9wCg==",
+  "tags": []
+ },
+ "template rendering": {
+  "rc": 0,
+  "stdout_b64": "RGVhciBKdW4sCllvdSBoYXZlIDMgaXRlbXM6CiAgMS4gYWxwaGEKICAyLiBiZXRhCiAgMy4gZ2FtbWEKVG90YWwgbGVuZ3RoOiAxNAo=",
+  "tags": []
+ },
+ "validate input records": {
+  "rc": 0,
+  "stdout_b64": "aW50OjQyCmludDotNwpiYWQtaW50Ols0eF0KYmFkLWludDpbXQpkYXRlOjIwMjYtMTEtMTUKYmFkLWRhdGU6MjAyNi0xMy0wMQpiYWQtZGF0ZToyNi0xLTEKbWFpbDphQGIuY28KYmFkLW1haWw6YmFkQApiYWQtbWFpbDp4LnkK",
+  "tags": []
+ },
+ "while with multiple conditions and counters": {
+  "rc": 0,
+  "stdout_b64": "Zm91bmQgYXQgMiwgc2Nhbm5lZCAzCg==",
+  "tags": []
+ }
+}

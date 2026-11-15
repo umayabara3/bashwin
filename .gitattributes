@@ -1,0 +1,5 @@
+# 取得する OS に関係なく同じ内容になるようにする(テストはバイト一致で比較するため)
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.pyz binary
+*.zip binary

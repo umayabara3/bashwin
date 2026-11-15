@@ -1,0 +1,87 @@
+{
+ "awk BEGIN END and aggregates": {
+  "rc": 0,
+  "stdout_b64": "NjAgMjAKMwphIDMKYiAxCmMgMQpvbmx5IGJlZ2luCnN0YXJ0CmxpbmUgeAplbmQKOCBhcHBsZXMgcGVhcnMgCg==",
+  "tags": []
+ },
+ "awk arithmetic and numbers": {
+  "rc": 0,
+  "stdout_b64": "My41IDEgOCAxNiAtMyAxMDAwIDAuMwo3IC03IDQgMQo1CjEgMiAzIDMgMiAxCjEgMSAwIDEgMQozIDQgMzQgM3gKMTAwMDAwMDAwMDAgMC4zMzMzMzMgMTIzNDU2Nzg5MDEyCjQyICAzLjE0IDEuMjM0NTAwZSswMyBzdHIgQSBmZiAxMCAlCiAgIDQyfDQyICAgfDAwMDQyfCs0Mgo=",
+  "tags": []
+ },
+ "awk arrays": {
+  "rc": 0,
+  "stdout_b64": "MSAwIDIKMCB0d28gMQptCjEgMgpiIGEgYyAKazEgNAprMiAyCmEKYgoyCjEKZXhpc3RzCjAK",
+  "tags": []
+ },
+ "awk control flow": {
+  "rc": 0,
+  "stdout_b64": "MSAyIDMgCjEKMwo1CjYKYmlnCnR3bwpubyB0CjEKMwoxCjIKZmlyc3QKb3RoZXIKc3Q9MwplbmQgcnVucwpzdD00Cg==",
+  "tags": []
+ },
+ "awk csv and report idioms": {
+  "rc": 0,
+  "stdout_b64": "ZW5nIDIyMCAxMTAuMApvcHMgMTcwIDg1LjAKYWxpY2UKY2Fyb2wKYWxpY2UgICAgMTAwCmJvYiAgICAgICA4MApjYXJvbCAgICAxMjAKZGF2ZSAgICAgIDkwCmNhcm9sIDEyMAphbGljZSxlbmcsMTEwCmJvYixvcHMsODgKY2Fyb2wsZW5nLDEzMgpkYXZlLG9wcyw5OQpBbGljZSAoZW5nKQpCb2IgKG9wcykKQ2Fyb2wgKGVuZykKRGF2ZSAob3BzKQozCnRvdGFsPTM5MCBhdmc9OTcuNTAgbj00Cg==",
+  "tags": []
+ },
+ "awk field separators": {
+  "rc": 0,
+  "stdout_b64": "YgpjIGEKYgpiIGMKYWJjCmEtYi1jCmEsYgpiCnY9awo=",
+  "tags": []
+ },
+ "awk in shell pipelines": {
+  "rc": 0,
+  "stdout_b64": "dG90YWw9MTQKW2YyXQpCCjx4Pjx5Pjx6PgoxIDMKRVJST1I6IHNvbWV0aGluZyBiYWQK",
+  "tags": []
+ },
+ "awk multiple files and FILENAME": {
+  "rc": 0,
+  "stdout_b64": "ZjEudHh0IDEgMSBhCmYxLnR4dCAyIDIgYgpmMi50eHQgMSAzIGMKc3RhcnQgb2YgZjEudHh0CnN0YXJ0IG9mIGYyLnR4dAozCg==",
+  "tags": []
+ },
+ "awk output control": {
+  "rc": 0,
+  "stdout_b64": "bm8gbmV3bGluZQp0byBmaWxlCm1vcmUKMwphCWIKYyEKYQpiCmFmdGVyCmdvdDogY21kLW91dHB1dAphZnRlciBnZXRsaW5lOiBsMgoyIGJiCjEgMgo=",
+  "tags": []
+ },
+ "awk patterns": {
+  "rc": 0,
+  "stdout_b64": "NAo1CmV2ZW4gMgpldmVuIDQKMgoyCjMKMwoxIDIgNCA1IAoyIDMgNCAKcjEKcjIKMgo0CjIKNAo1Cg==",
+  "tags": []
+ },
+ "awk print fields": {
+  "rc": 0,
+  "stdout_b64": "YSBjCmQgZgpjIDMgYgp5eAoxOiBvbmUKMjogdHdvCmEgYiBjCmEgWCBjCmEgYiBjICBFCjUKbGVhZHx0cmFpbHwyCg==",
+  "tags": []
+ },
+ "awk regex features": {
+  "rc": 0,
+  "stdout_b64": "Zm9vMTIzCmEuYgphYgphYmFiCng8MT4KeDwyMj4KMgphLWIKaGFzIHRhYgpvazogZW1haWxAeC5jb20KMzpiYmIKYmNkCg==",
+  "tags": []
+ },
+ "awk string functions": {
+  "rc": 0,
+  "stdout_b64": "NSBlbGwgbGxvIDMKQUJDIHh5eiAwCjMgYSBjCjMgYgpoZWxsMCB3b3JsZApoZWxsMCB3MHJsZAozIGJiYgphW2JdYwoyIDIKMDA3LXgKaGUgaGVsIGxvfApoZWxsMCB3MHJsZAphLWItYwo1IEhlbGxvCg==",
+  "tags": []
+ },
+ "awk string vs number comparison": {
+  "rc": 0,
+  "stdout_b64": "MCAwCjAgMAowIDEKbnVtZXJpYyBlcQpzdHJpbmcgZXEKbHQKbnVtCnN0cmNtcApmYWxzZQpmYWxzZQp0cnVlCnVuaW5pdCBpcyBib3RoCjQgNiAzCg==",
+  "tags": []
+ },
+ "awk text idioms": {
+  "rc": 0,
+  "stdout_b64": "YQpiCmMKeiB5IHgKbGluZTMKYixkClt0cmltIG1lXQp2CjMgYwo1IDcgOQoxIGEKMiBiCmxvbmcgbGluZSBoZXJlCkEsQgozCjYKOQo2Cg==",
+  "tags": []
+ },
+ "awk user functions": {
+  "rc": 0,
+  "stdout_b64": "NQozNjI4ODAwCjEgNCA5CjkKaGkgeAp8Cg==",
+  "tags": []
+ },
+ "awk variables from shell": {
+  "rc": 0,
+  "stdout_b64": "MTAKMTEgaGVsbG8gd29ybGQKNDMKPj4gZGF0YQoxCjMKYXNzaWduZWQK",
+  "tags": []
+ }
+}

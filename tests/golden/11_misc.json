@@ -1,0 +1,152 @@
+{
+ "LINENO": {
+  "rc": 0,
+  "stdout_b64": "MQoyCjMK",
+  "tags": []
+ },
+ "arithmetic in various contexts": {
+  "rc": 0,
+  "stdout_b64": "NyA1IDYKZGUgZ2gKMTAgMTIgMTQgCg==",
+  "tags": []
+ },
+ "command substitution of external": {
+  "rc": 0,
+  "stdout_b64": "W2NhcHR1cmVkXQpzdD05CjMK",
+  "tags": []
+ },
+ "date default and arithmetic": {
+  "rc": 0,
+  "stdout_b64": "VGh1IEphbiAgMSAwMDowMDowMCBVVEMgMTk3MAp5ZWFyLW9rCmVwb2NoLW9rCjE0Cg==",
+  "tags": []
+ },
+ "date formats fixed epoch": {
+  "rc": 0,
+  "stdout_b64": "MTk3MC0wMS0wMQoyMDIzLTExLTE0IDIyOjEzOjIwCjE3MDAwMDAwMDAKVHVlIE5vdiAxNCAzMTggMiAyCjIzMTExNCAxMFBNIFVUQwoxOTcwLTAxLTAyCjIyOjEzOjIwClR1ZXNkYXkgTm92ZW1iZXIKMTEvMTQvMjMKMjI6MTMK",
+  "tags": []
+ },
+ "date invalid": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MQo=",
+  "tags": []
+ },
+ "date string parsing": {
+  "rc": 0,
+  "stdout_b64": "MTc5NDcwMDgwMAoxNzk0NzQ2MDk2CjIwMjYtMDItMDEKMjAyNi0wMi0yOAoyMDI2LTAyLTE1CjIwMjUtMDEtMTUKMjAyNC0wMy0wMQoyMDI2LTExLTE1IDAzCjA4CjIwMjYtMTEtMTUK",
+  "tags": []
+ },
+ "dollar-dollar and bang": {
+  "rc": 0,
+  "stdout_b64": "cGlkLW9rCmJhbmctb2sK",
+  "tags": []
+ },
+ "env and printenv": {
+  "rc": 0,
+  "stdout_b64": "TVlWQVI9aGVsbG8KaGVsbG8Kc3Q9MQpiYXIKTm9uZQo=",
+  "tags": []
+ },
+ "external cwd and env inheritance": {
+  "rc": 0,
+  "stdout_b64": "c3ViCjEgMgo=",
+  "tags": []
+ },
+ "external in pipeline both sides": {
+  "rc": 0,
+  "stdout_b64": "Mwo2CmJhCg==",
+  "tags": []
+ },
+ "external with redirects": {
+  "rc": 0,
+  "stdout_b64": "dG8gZmlsZQp0byBmaWxlCkUKZQpvCjIK",
+  "tags": []
+ },
+ "here-doc with command in loop": {
+  "rc": 0,
+  "stdout_b64": "aXRlbSAxOiAxMAppdGVtIDI6IDIwCg==",
+  "tags": []
+ },
+ "heredoc to external": {
+  "rc": 0,
+  "stdout_b64": "cHl0aG9uIGZyb20gaGVyZWRvYwo2Cg==",
+  "tags": []
+ },
+ "large loop performance sanity": {
+  "rc": 0,
+  "stdout_b64": "MjAwMTAwMAoxMDAwCg==",
+  "tags": []
+ },
+ "nested quotes in command substitution": {
+  "rc": 0,
+  "stdout_b64": "YV9iCnAgcSx4IHksCg==",
+  "tags": []
+ },
+ "nproc-independent parallel pattern": {
+  "rc": 0,
+  "stdout_b64": "dGFzayAxCnRhc2sgMgp0YXNrIDMK",
+  "tags": []
+ },
+ "number formatting": {
+  "rc": 0,
+  "stdout_b64": "MDAwNDIKMy4xNDIKICAgIDMuMTR8CmxlZnQgICAgfCAgIHJpZ2h0fApmZgo3IGl0ZW1zCjEK",
+  "tags": []
+ },
+ "printf time format": {
+  "rc": 0,
+  "stdout_b64": "MTk3MC0wMS0wMQowMTowMAo=",
+  "tags": []
+ },
+ "random and seconds": {
+  "rc": 0,
+  "stdout_b64": "cmFuZG9tLW9rCnJhbmRvbS12YXJpZXMKc2Vjb25kcy1vawo=",
+  "tags": []
+ },
+ "script calling script": {
+  "rc": 0,
+  "stdout_b64": "Y2hpbGQgYXJnczogYSBiICgyKQpjaGlsZCBzZWVzIEVYUE9SVEVEPXllcyBMT0NBTFY9W10Kc3Q9NgpjaGlsZCBhcmdzOiB4ICgxKQo=",
+  "tags": []
+ },
+ "sleep": {
+  "rc": 0,
+  "stdout_b64": "c2xlcHQKc3Q9MAo=",
+  "tags": []
+ },
+ "sourced vs executed scope": {
+  "rc": 0,
+  "stdout_b64": "W10KW3NldF9ieV9zY3JpcHRdCg==",
+  "tags": []
+ },
+ "string manipulation cookbook": {
+  "rc": 0,
+  "stdout_b64": "W3BhZGRlZF0KMyBiCmEuYi5jCmggbyA1Cj09PT09PT09PT0KTUlYRUQKY29udGFpbnMKYSBiLmMgYS5iIGMK",
+  "tags": []
+ },
+ "timeout": {
+  "rc": 0,
+  "stdout_b64": "ZmFzdApzdD0wCnN0PTEyNApkb25lCnN0PTAK",
+  "tags": []
+ },
+ "true false colon exit codes via python": {
+  "rc": 0,
+  "stdout_b64": "Mwpmcm9tIHB5dGhvbgpQSVBFRApvdXQKWydhJywgJ2IgYycsICdkImUnXQo=",
+  "tags": []
+ },
+ "uname hostname whoami exist": {
+  "rc": 0,
+  "stdout_b64": "dW5hbWUtb2sKaG9zdG5hbWUtb2sKd2hvYW1pLW9rCm5wcm9jLW9rCg==",
+  "tags": []
+ },
+ "which and command": {
+  "rc": 0,
+  "stdout_b64": "aGFzLWNhdApzdD0xCg==",
+  "tags": []
+ },
+ "xargs": {
+  "rc": 0,
+  "stdout_b64": "YSBiIGMKYQpiCmMKaXRlbTogYQppdGVtOiBiCjEgMgozIDQKNQpxdW90ZWQgYXJnCnBsYWluCnN0PTAKeAp5CmYxCmYyCg==",
+  "tags": []
+ },
+ "xargs with find": {
+  "rc": 0,
+  "stdout_b64": "YS50eHQKYi50eHQKMCB0b3RhbAo=",
+  "tags": []
+ }
+}

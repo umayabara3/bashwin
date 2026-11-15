@@ -1,0 +1,86 @@
+{
+ "dos2unix and unix2dos applets": {
+  "rc": 0,
+  "stdout_b64": "NjEwYTYyMGEKNzgwZDBhNzkwZDBhCg==",
+  "tags": [
+   "own"
+  ]
+ },
+ "iconv sjis roundtrip file": {
+  "rc": 0,
+  "stdout_b64": "MTEK5ryi5a2X44OG44K544OICg==",
+  "tags": [
+   "own"
+  ]
+ },
+ "igncr strips CR from command substitution": {
+  "rc": 0,
+  "stdout_b64": "W3ZhbHVlXSA1Cjx2MT4KPHYyPgo2Cg==",
+  "tags": [
+   "own"
+  ]
+ },
+ "inventory lists external commands without running": {
+  "rc": 0,
+  "stdout_b64": "c2NyaXB0OiBqb2Iuc2gKZnVuY3Rpb25zIChkZWZpbmVkIGluIHNjcmlwdCk6IGxvZwpzaGVsbCBidWlsdGluczogY29tbWFuZCBlY2hvCmJhc2h3aW4gYXBwbGV0czogZ3JlcCBybQpleHRlcm5hbCBjb21tYW5kcyAobXVzdCBleGlzdCBvbiB0aGUgaG9zdCk6CiByb2JvY29weSBsaW5lIDUKIHNxbHBsdXMgbGluZSAzCmR5bmFtaWMgY29tbWFuZCBuYW1lcyAoZGVjaWRlZCBhdCBydW4gdGltZSk6IGxpbmUgNAo=",
+  "tags": [
+   "own"
+  ]
+ },
+ "ps1-check classifies scripts": {
+  "rc": 0,
+  "stdout_b64": "cmM9MAp1bml4LnNoOiBOT1QgdHJhbnNwaWxhYmxlIApyYz0xCg==",
+  "tags": [
+   "own"
+  ]
+ },
+ "raw exit status is kept": {
+  "rc": 0,
+  "stdout_b64": "MyAzCg==",
+  "tags": [
+   "own"
+  ]
+ },
+ "rm refuses filesystem root": {
+  "rc": 0,
+  "stdout_b64": "cmM9MQo=",
+  "tags": [
+   "own"
+  ]
+ },
+ "script with CRLF line endings runs": {
+  "rc": 0,
+  "stdout_b64": "b25lCnR3bwp0aHJlZQo=",
+  "tags": [
+   "own"
+  ]
+ },
+ "syntax check mode does not execute": {
+  "rc": 0,
+  "stdout_b64": "cmM9MApyYz0yCg==",
+  "tags": [
+   "own"
+  ]
+ },
+ "unsupported features fail loudly": {
+  "rc": 0,
+  "stdout_b64": "cmM9MgoxCnJjPTEK",
+  "tags": [
+   "own"
+  ]
+ },
+ "version variable and applet list": {
+  "rc": 0,
+  "stdout_b64": "aGFzLXZlcnNpb24KMQo=",
+  "tags": [
+   "own"
+  ]
+ },
+ "winpath conversions": {
+  "rc": 0,
+  "stdout_b64": "YVxiXGMudHh0CkM6L1VzZXJzL3gKL2MvVXNlcnMveAo=",
+  "tags": [
+   "own"
+  ]
+ }
+}

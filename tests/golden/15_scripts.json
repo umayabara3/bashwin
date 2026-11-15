@@ -1,0 +1,37 @@
+{
+ "script: backup rotation with tar and find": {
+  "rc": 0,
+  "stdout_b64": "Y3JlYXRlZCBiYWNrdXBfMjAyNjExMTAudGFyLmd6ICg0IGZpbGVzKQpjcmVhdGVkIGJhY2t1cF8yMDI2MTExMS50YXIuZ3ogKDQgZmlsZXMpCmNyZWF0ZWQgYmFja3VwXzIwMjYxMTEyLnRhci5neiAoNCBmaWxlcykKY3JlYXRlZCBiYWNrdXBfMjAyNjExMTMudGFyLmd6ICg0IGZpbGVzKQpjcmVhdGVkIGJhY2t1cF8yMDI2MTExNC50YXIuZ3ogKDQgZmlsZXMpCmJlZm9yZSBwcnVuZTogNQpwcnVuZWQgYmFja3VwXzIwMjYxMTEwLnRhci5negpwcnVuZWQgYmFja3VwXzIwMjYxMTExLnRhci5negphZnRlciBwcnVuZTogMwpyZXN0b3JlIHZlcmlmaWVkCg==",
+  "tags": []
+ },
+ "script: data transformation pipeline with here-docs and functions": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "script: deploy with getopts and generated config": {
+  "rc": 0,
+  "stdout_b64": "U0VSVklDRSAgICAgIFBPUlQgICBGSUxFCmFwaSAgICAgICAgICA5MDAwICAgY29uZi9wcm9kL2FwaS5jb25mCndvcmtlciAgICAgICA5MDAxICAgY29uZi9wcm9kL3dvcmtlci5jb25mCmJhdGNoIGpvYiAgICA5MDAyICAgY29uZi9wcm9kL2JhdGNoX2pvYi5jb25mCnBvcnQgPSA5MDAwCnBvcnQgPSA5MDAxCnBvcnQgPSA5MDAyCmRyeSBydW46IG5vdGhpbmcgZGVwbG95ZWQKVXNhZ2U6IGRlcGxveSBbLWUgRU5WXSBbLXAgUE9SVF0gWy1uXSBTRVJWSUNFLi4uCg==",
+  "tags": []
+ },
+ "script: monitoring report with awk sed grep": {
+  "rc": 0,
+  "stdout_b64": "PT0gcmVxdWVzdHMgcGVyIGNsaWVudCA9PQoxMC4wLjAuMSAgIDMKMTAuMC4wLjIgICAyCjEwLjAuMC4zICAgMQo9PSBzdGF0dXMgY2xhc3NlcyA9PQoyeHggMwo0eHggMgo1eHggMQo9PSBieXRlcyBieSBwYXRoID09CiAgICAyMDg2IC9pbmRleC5odG1sCiAgICAgNTM1IC9hcGkvdXNlcnMKICAgICAgODggL2FwaS9sb2dpbgogICAgICAgMCAvbWlzc2luZwo9PSBlcnJvcnMgPT0KNDAxIFBPU1QgL2FwaS9sb2dpbiBmcm9tIDEwLjAuMC4xCjQwNCBHRVQgL21pc3NpbmcgZnJvbSAxMC4wLjAuMwo1MDAgR0VUIC9hcGkvdXNlcnMgZnJvbSAxMC4wLjAuMgo9PSBwZXIgbWludXRlID09CjQgMDE6MDAKMSAwMTowMQoxIDAxOjAyCmVycm9yIHJhdGU6IDMvNiA9IDUwJQpBTEVSVDogZXJyb3IgcmF0ZSBhYm92ZSA0MCUK",
+  "tags": []
+ },
+ "script: state machine and queue processing": {
+  "rc": 0,
+  "stdout_b64": "cjEgb2sgYnVpbGQ6YXBwCnIxIG9rIHRlc3Q6YXBwCnIxIHJldHJ5KDIpIGZhaWw6bGludApyMSBvayBkZXBsb3k6YXBwCnIxIG9rIGJ1aWxkOmRvY3MKcjIgb2sgZmFpbDpsaW50CmFwcD1kZXBsb3llZApkb2NzPWJ1aWx0CnJvdW5kcz0yIHJlbWFpbmluZz0wCg==",
+  "tags": []
+ },
+ "script: text report formatting with printf and padding": {
+  "rc": 0,
+  "stdout_b64": "SXRlbSAgICAgICAgICAgICBRdHkgICAgICBQcmljZSAgICAgIFRvdGFsCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpXaWRnZXQgICAgICAgICAgICAgNCAgICAgICAzLjUwICAgICAgMTQuMDAKR2FkZ2V0IFBybyAgICAgICAgMTAgICAgICAxMi4yNSAgICAgMTIyLjUwClRoaW5nICAgICAgICAgICAgICAxICAgICAgIDAuOTkgICAgICAgMC45OQrotoXlkIjph5Hjg63jg5wgICAgIDIgICAgICAgMTUwMCAgICAzMDAwLjAwCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpTdWJ0b3RhbCAgICAgICAgICAgICAgICAgICAgICAgICAgIDMxMzcuNDkKVGF4ICgxMCUpICAgICAgICAgICAgICAgICAgICAgICAgICAgMzEzLjc0ClRPVEFMICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzQ1MS4yMwppdGVtcz00IGxvbmdlc3Q9MTAK",
+  "tags": []
+ },
+ "script: tiny test framework with subshells and traps": {
+  "rc": 0,
+  "stdout_b64": "LSB0ZXN0X3NsdWdpZnkKLSB0ZXN0X2ZpbGVzCi0gdGVzdF9pc29sYXRpb24KLSB0ZXN0X2V4cGVjdGVkX2ZhaWx1cmUKICBGQUlMIFt0ZXN0X2V4cGVjdGVkX2ZhaWx1cmVdOiBleHBlY3RlZCAnZGlmZmVyZW50JyBnb3QgJ2FjdHVhbCcKcGFzc2VkPTEwIGZhaWxlZD0xCmNsZWFuZWQ6IHllcwo=",
+  "tags": []
+ }
+}

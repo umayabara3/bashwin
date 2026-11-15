@@ -1,0 +1,136 @@
+{
+ "basename dirname": {
+  "rc": 0,
+  "stdout_b64": "dG9vbAp0b29sCnRvb2wKdHJhaWxpbmcKL3Vzci9sb2NhbC9iaW4KLgovCmEKb25lCnR3bwpiCg==",
+  "tags": []
+ },
+ "chmod and permissions": {
+  "rc": 0,
+  "stdout_b64": "cncKNjAwCjcwMAo3NDQKNTQ0CmV4ZWN1dGFibGUK",
+  "tags": [
+   "posix"
+  ]
+ },
+ "cp files": {
+  "rc": 0,
+  "stdout_b64": "ZGF0YQpzcmMudHh0CmRzdC50eHQKc3JjLnR4dApzdD0xCnN0PTEK",
+  "tags": []
+ },
+ "cp recursive": {
+  "rc": 0,
+  "stdout_b64": "dDIKdDIvYQp0Mi9zdWIKdDIvc3ViL2IKZXhpc3RpbmcKZXhpc3RpbmcvdApleGlzdGluZy90L2EKZXhpc3RpbmcvdC9zdWIKZXhpc3RpbmcvdC9zdWIvYgpzdD0xCg==",
+  "tags": []
+ },
+ "du and disk helpers": {
+  "rc": 0,
+  "stdout_b64": "MTAwMAo=",
+  "tags": []
+ },
+ "file loops and globs": {
+  "rc": 0,
+  "stdout_b64": "ZjEudHh0OiBjMQpmMi50eHQ6IGMyCmYzLnR4dDogYzMKMwozCg==",
+  "tags": []
+ },
+ "file tests with globs and counts": {
+  "rc": 0,
+  "stdout_b64": "MgozCjIKZXhpc3RzCjMK",
+  "tags": []
+ },
+ "find by name and type": {
+  "rc": 0,
+  "stdout_b64": "Zi9hL2IvdHdvLnR4dApmL2Evb25lLnR4dApmL3RvcC50eHQKZgpmL2EKZi9hL2IKZi9jCmYvYS9iL3R3by50eHQKZi9jL3RocmVlLmxvZwpmL3RvcC50eHQKZgpmL2EKZi9jCmYvdG9wLnR4dApmL2EvYi90d28udHh0CmYvYS9vbmUudHh0CmYvYy90aHJlZS5sb2cKZi9jL3RocmVlLmxvZwpmL3RvcC50eHQKZi9jL3RocmVlLmxvZwpmL2Evb25lLnR4dApmL2EvYi90d28udHh0Cg==",
+  "tags": []
+ },
+ "find empty and size": {
+  "rc": 0,
+  "stdout_b64": "aC9lbXB0eQpoL2VtcHR5ZGlyCmgvZnVsbApoL2Z1bGwK",
+  "tags": []
+ },
+ "find newer": {
+  "rc": 0,
+  "stdout_b64": "Li9uZXcudHh0Ci4vbWlkLnR4dAouL29sZC50eHQK",
+  "tags": []
+ },
+ "find prune": {
+  "rc": 0,
+  "stdout_b64": "cC9rZWVwL2IK",
+  "tags": []
+ },
+ "find with exec and delete": {
+  "rc": 0,
+  "stdout_b64": "Zm91bmQgZy8xLnRtcApmb3VuZCBnLzIudG1wCmJhdGNoIGcvMS50bXAgZy8yLnRtcCAKa2VlcC50eHQKMAo=",
+  "tags": []
+ },
+ "gzip tar roundtrip": {
+  "rc": 0,
+  "stdout_b64": "YXIvCmFyLzEudHh0CmFyL3N1Yi8KYXIvc3ViLzIudHh0Cm9uZQp0d28KZ3ppcHBlZApjb21wcmVzcy1tZQpjb21wcmVzcy1tZQpjb21wcmVzcy1tZQo=",
+  "tags": []
+ },
+ "ls": {
+  "rc": 0,
+  "stdout_b64": "YQpiCnN1YgouCi4uCi5oaWRkZW4KYQpiCnN1YgouaGlkZGVuCmEKYgpzdWIKYQpiCnN1YgpsL2EKbC9iCmwKYQpiCnN1Yi8Kc3ViCmIKYQpzdD0yCg==",
+  "tags": []
+ },
+ "ls multiple dirs": {
+  "rc": 0,
+  "stdout_b64": "eDoKMQoKeToKMgo=",
+  "tags": []
+ },
+ "mkdir and rmdir": {
+  "rc": 0,
+  "stdout_b64": "bmVzdGVkCnN0PTEKc3Q9MApyZW1vdmVkCnN0PTEK",
+  "tags": []
+ },
+ "mktemp": {
+  "rc": 0,
+  "stdout_b64": "ZmlsZS1jcmVhdGVkCmRpci1jcmVhdGVkCnBhdHRlcm4tb2sKdW5pcXVlCg==",
+  "tags": []
+ },
+ "mv": {
+  "rc": 0,
+  "stdout_b64": "bTIKeAptMgp5CmRpci1yZW5hbWVkCnN0PTEK",
+  "tags": []
+ },
+ "path manipulation with expansion": {
+  "rc": 0,
+  "stdout_b64": "c2VydmVyLjIwMjYubG9nIC92YXIvbG9nL2FwcCBsb2cKc2VydmVyIHNlcnZlci4yMDI2IDIwMjYubG9nCg==",
+  "tags": []
+ },
+ "realpath and readlink": {
+  "rc": 0,
+  "stdout_b64": "L3JwL2EvZgovcnAvYS9jCg==",
+  "tags": []
+ },
+ "rm": {
+  "rc": 0,
+  "stdout_b64": "cjIKcjMKc3Q9MgpzdD0xCnN0PTAKc3Q9MQpnb25lCnN0PTAK",
+  "tags": []
+ },
+ "spaces in filenames": {
+  "rc": 0,
+  "stdout_b64": "aGkKW3NwIGRpci9hIGZpbGUudHh0XQphIGZpbGUudHh0CjMKMgoxCg==",
+  "tags": []
+ },
+ "stat size": {
+  "rc": 0,
+  "stdout_b64": "NQpzeiA1CjUK",
+  "tags": []
+ },
+ "symlinks": {
+  "rc": 0,
+  "stdout_b64": "aXMtbGluawp0YXJnZXQKc3QudHh0CnN0PTAKdGFyZ2V0LWtlcHQK",
+  "tags": [
+   "posix"
+  ]
+ },
+ "touch and test": {
+  "rc": 0,
+  "stdout_b64": "ZW1wdHkgZmlsZQpzdD0wCm5vdCBjcmVhdGVkCg==",
+  "tags": []
+ },
+ "write then read many files": {
+  "rc": 0,
+  "stdout_b64": "NTAKNTAKNTAKMzkK",
+  "tags": []
+ }
+}

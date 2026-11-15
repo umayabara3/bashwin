@@ -1,0 +1,147 @@
+{
+ "and-or lists": {
+  "rc": 0,
+  "stdout_b64": "YQpjCmYKZwpoCmkKc3Q9MAo=",
+  "tags": []
+ },
+ "arithmetic command": {
+  "rc": 0,
+  "stdout_b64": "MAoxCmJpZwo2CnNpeAo=",
+  "tags": []
+ },
+ "break and continue": {
+  "rc": 0,
+  "stdout_b64": "MQozCmFmdGVyPTQK",
+  "tags": []
+ },
+ "c-style for": {
+  "rc": 0,
+  "stdout_b64": "MAoxCjIKMTAgMAo3IDEKNCAyCm91dAo=",
+  "tags": []
+ },
+ "case alternation and fallthrough": {
+  "rc": 0,
+  "stdout_b64": "YWJjCnBhcmVuCm9uZQp0d28KZmlyc3QKZGlnaXQKYW55CnN0PTAK",
+  "tags": []
+ },
+ "case basics": {
+  "rc": 0,
+  "stdout_b64": "QQpCCk9USEVSCk5VTQpFTVBUWQo=",
+  "tags": []
+ },
+ "case character classes": {
+  "rc": 0,
+  "stdout_b64": "bG93ZXIKdXBwZXIKZGlnaXQKb3RoZXIKc3BhY2UK",
+  "tags": []
+ },
+ "case with quotes and vars": {
+  "rc": 0,
+  "stdout_b64": "c3BhY2VkCmdsb2ItdmFyCmxpdGVyYWwtdmFyCm5vdC1saXRlcmFsCg==",
+  "tags": []
+ },
+ "deeply nested control": {
+  "rc": 0,
+  "stdout_b64": "MWEKb3RoZXIKc2Vjb25kCg==",
+  "tags": []
+ },
+ "double bracket grouping": {
+  "rc": 0,
+  "stdout_b64": "Z3JvdXBlZAo=",
+  "tags": []
+ },
+ "double bracket pattern quoting": {
+  "rc": 0,
+  "stdout_b64": "cGF0CmxpdApsaXQtZXEK",
+  "tags": []
+ },
+ "double bracket regex": {
+  "rc": 0,
+  "stdout_b64": "bTEKbTIKbTMKdXNlciBhdCBleGFtcGxlLmNvbQptNAptNQptNgo=",
+  "tags": []
+ },
+ "double bracket tests": {
+  "rc": 0,
+  "stdout_b64": "ZXEKZ2xvYgpuZQpsdAp6bgpudW0Kbm90ZXhpc3QKZW1wdHktdW5xdW90ZWQtb2sKbm9zcGxpdAo=",
+  "tags": []
+ },
+ "empty function body and colon": {
+  "rc": 0,
+  "stdout_b64": "MApkZWZhdWx0Cg==",
+  "tags": []
+ },
+ "for loops": {
+  "rc": 0,
+  "stdout_b64": "MQoyCjMKPGE+CjxiIGM+CjxkPgpwCnEKZW5kCg==",
+  "tags": []
+ },
+ "group commands": {
+  "rc": 0,
+  "stdout_b64": "QQpCCngKMQo=",
+  "tags": []
+ },
+ "if elif else": {
+  "rc": 0,
+  "stdout_b64": "dHdvCnN0PTAKc3Q9MAo=",
+  "tags": []
+ },
+ "if with command status and negation": {
+  "rc": 0,
+  "stdout_b64": "bmVnYXRlZAp5ZXMKZm91bmQKMQowCg==",
+  "tags": []
+ },
+ "loop with redirect out": {
+  "rc": 0,
+  "stdout_b64": "bGluZSAxCmxpbmUgMgpsaW5lIDMKMwo=",
+  "tags": []
+ },
+ "multi-line conditions": {
+  "rc": 0,
+  "stdout_b64": "Ym90aApvawo=",
+  "tags": []
+ },
+ "nested break levels": {
+  "rc": 0,
+  "stdout_b64": "MWEKZG9uZQo=",
+  "tags": []
+ },
+ "select-like menu with case in function": {
+  "rc": 0,
+  "stdout_b64": "Zmlyc3QKc2Vjb25kCmludmFsaWQK",
+  "tags": []
+ },
+ "subshell exit does not exit parent": {
+  "rc": 0,
+  "stdout_b64": "aW4KcGFyZW50IGNvbnRpbnVlcyAxCg==",
+  "tags": []
+ },
+ "subshell isolation": {
+  "rc": 0,
+  "stdout_b64": "aW5uZXIKb3V0ZXIKbW92ZWQtaW4tc3Vic2hlbGwKY3dkIHByZXNlcnZlZAo3Cg==",
+  "tags": []
+ },
+ "test builtin forms": {
+  "rc": 0,
+  "stdout_b64": "dDEKdDIKdDMKdDQKdDUKdDYKdDcKdDgKdDkKdDEwCnQxMQo=",
+  "tags": []
+ },
+ "test file operators": {
+  "rc": 0,
+  "stdout_b64": "ZQpmCmQKbm90ZgplbXB0eQpub25lbXB0eQpydwo=",
+  "tags": []
+ },
+ "while and until": {
+  "rc": 0,
+  "stdout_b64": "MAoxCjIKMgoxCjAKc3Q9MAo=",
+  "tags": []
+ },
+ "while read from pipe (subshell)": {
+  "rc": 0,
+  "stdout_b64": "aW46MQppbjoyCm91dDowCg==",
+  "tags": []
+ },
+ "while read loop": {
+  "rc": 0,
+  "stdout_b64": "MTphCjI6YgozOmMKNgo=",
+  "tags": []
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "ERR trap with errexit": {
+  "rc": 1,
+  "stdout_b64": "RVJSIHRyYXAKRVhJVCB0cmFwCg==",
+  "tags": []
+ },
+ "command not found status": {
+  "rc": 0,
+  "stdout_b64": "MTI3CjEyNwo=",
+  "tags": []
+ },
+ "errexit and arithmetic": {
+  "rc": 0,
+  "stdout_b64": "emVybyBoYW5kbGVkCng9MQo=",
+  "tags": []
+ },
+ "errexit and-or last element": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit exit status": {
+  "rc": 7,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit function in condition is ignored": {
+  "rc": 0,
+  "stdout_b64": "Y29udGludWVzIGluIGYKZiBvawpjb250aW51ZXMgaW4gZgplbmQK",
+  "tags": []
+ },
+ "errexit in function": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit in pipeline": {
+  "rc": 1,
+  "stdout_b64": "cGlwZSBvawo=",
+  "tags": []
+ },
+ "errexit in subshell": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit local masks failure": {
+  "rc": 0,
+  "stdout_b64": "bG9jYWwgb2sKZW5kCg==",
+  "tags": []
+ },
+ "errexit middle of and-or": {
+  "rc": 0,
+  "stdout_b64": "c3Vydml2ZWQgMQo=",
+  "tags": []
+ },
+ "errexit negation and compound": {
+  "rc": 0,
+  "stdout_b64": "Z3JvdXBlZApkYmwKc2dsCmVuZAo=",
+  "tags": []
+ },
+ "errexit not triggered in conditions": {
+  "rc": 0,
+  "stdout_b64": "b3Igb2sKc3Vydml2ZWQK",
+  "tags": []
+ },
+ "errexit off again": {
+  "rc": 0,
+  "stdout_b64": "c3RpbGwgaGVyZQo=",
+  "tags": []
+ },
+ "errexit pipefail": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit stops script": {
+  "rc": 1,
+  "stdout_b64": "YmVmb3JlCg==",
+  "tags": []
+ },
+ "errexit subshell contained": {
+  "rc": 0,
+  "stdout_b64": "bm8KZW5kCg==",
+  "tags": []
+ },
+ "errexit with command substitution assignment": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit with exit trap": {
+  "rc": 1,
+  "stdout_b64": "dHJhcCBzdGF0dXMgMQo=",
+  "tags": []
+ },
+ "error message then continue without errexit": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MTI3CmNvbnRpbnVpbmcK",
+  "tags": []
+ },
+ "exit in function exits script": {
+  "rc": 3,
+  "stdout_b64": "aW4K",
+  "tags": []
+ },
+ "exit inside command substitution": {
+  "rc": 0,
+  "stdout_b64": "YSAyCg==",
+  "tags": []
+ },
+ "exit inside pipeline stage only exits stage": {
+  "rc": 0,
+  "stdout_b64": "YWZ0ZXIgcGlwZWxpbmUgNQo=",
+  "tags": []
+ },
+ "expansion error discards the rest of the line": {
+  "rc": 0,
+  "stdout_b64": "bmV4dCBsaW5lIHN0PTEKaT0xCmFmdGVyIGxvb3Agc3Q9MQppbi1mCmFmdGVyIGZ1bmMgc3Q9MQppbi1zdWIKc3Vic2hlbGwgY29udGFpbmVkIHN0PTEKY21kc3ViIHN0PTEgW2luLWNzXQphcml0aCBjb21tYW5kIG9ubHkgZmFpbHMgc3Q9MQpldmFsIGNvbnRhaW5lZAplcnJleGl0IGRvZXMgbm90IGZpcmUgb24gZXhwYW5zaW9uIGVycm9ycwo=",
+  "tags": []
+ },
+ "nounset allows defaults and special": {
+  "rc": 0,
+  "stdout_b64": "b2sgb2sgW10gMCAKMAplbmQK",
+  "tags": []
+ },
+ "nounset positional": {
+  "rc": 0,
+  "stdout_b64": "bm9uZQp1bmJvdW5kIHBvc2l0aW9uYWwK",
+  "tags": []
+ },
+ "nounset stops script": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "pipefail status": {
+  "rc": 0,
+  "stdout_b64": "MAozCjIK",
+  "tags": []
+ },
+ "return outside function": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MiBjb250aW51ZXMK",
+  "tags": []
+ },
+ "strict mode typical header": {
+  "rc": 0,
+  "stdout_b64": "W2EgYl0KY291bnQ9MgpncmVwIG1pc3MgaGFuZGxlZApkb25lCg==",
+  "tags": []
+ }
+}

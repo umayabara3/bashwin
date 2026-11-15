@@ -1,0 +1,217 @@
+{
+ "OPTIND reset between calls": {
+  "rc": 0,
+  "stdout_b64": "Z290IGEKZ290IGEK",
+  "tags": []
+ },
+ "cd and pwd": {
+  "rc": 0,
+  "stdout_b64": "YgphCmIKaG9tZQpzdD0xCg==",
+  "tags": []
+ },
+ "colon and true false": {
+  "rc": 0,
+  "stdout_b64": "MAoxCg==",
+  "tags": []
+ },
+ "declare -p": {
+  "rc": 0,
+  "stdout_b64": "ZGVjbGFyZSAtLSB4PSJhIGIiCmRlY2xhcmUgLWEgYT0oWzBdPSIxIiBbMV09IjIgMyIpCmRlY2xhcmUgLWkgaT0iMyIK",
+  "tags": []
+ },
+ "declare forms": {
+  "rc": 0,
+  "stdout_b64": "OAo2CmNvbnN0CkxPV0VSCnVwcGVyCjEK",
+  "tags": []
+ },
+ "eval": {
+  "rc": 0,
+  "stdout_b64": "ZXZhbHVhdGVkCjEwCnZhbHVlCjEKMgoxCg==",
+  "tags": []
+ },
+ "exec replaces shell": {
+  "rc": 0,
+  "stdout_b64": "YmVmb3JlCmV4ZWMnZAo=",
+  "tags": []
+ },
+ "exit codes": {
+  "rc": 0,
+  "stdout_b64": "MAoyNTUKMAoyNTUK",
+  "tags": []
+ },
+ "export and env": {
+  "rc": 0,
+  "stdout_b64": "ZXhwb3J0ZWQgTm9uZQppbmxpbmUKW10KMTIKTm9uZQo=",
+  "tags": []
+ },
+ "export in function and subshell": {
+  "rc": 0,
+  "stdout_b64": "ZnYgTm9uZQpbXQo=",
+  "tags": []
+ },
+ "getopts basic": {
+  "rc": 0,
+  "stdout_b64": "ZmxhZyBhCmI9dmFsCmZsYWcgYwpyZXN0OiBmaWxlMSBmaWxlMgpmbGFnIGEKZmxhZyBjCmI9am9pbmVkCnJlc3Q6IHgKcmVzdDogLWEKcmVzdDogCg==",
+  "tags": []
+ },
+ "getopts silent mode": {
+  "rc": 0,
+  "stdout_b64": "eQp1bmtub3duIHoKbWlzc2luZyBhcmcgZm9yIHgKeD12Cg==",
+  "tags": []
+ },
+ "kill background job": {
+  "rc": 0,
+  "stdout_b64": "a2lsbGVkIHN0PjEyODogMQo=",
+  "tags": []
+ },
+ "let": {
+  "rc": 0,
+  "stdout_b64": "NQo2IDEyCnN0PTEK",
+  "tags": []
+ },
+ "mapfile variants": {
+  "rc": 0,
+  "stdout_b64": "MyBhYwpbeApdW3kKXQo=",
+  "tags": []
+ },
+ "printf to array element and var": {
+  "rc": 0,
+  "stdout_b64": "dHdvCg==",
+  "tags": []
+ },
+ "pushd popd": {
+  "rc": 0,
+  "stdout_b64": "cDEKcDIKcDEKYmFjawo=",
+  "tags": []
+ },
+ "read -n and -d": {
+  "rc": 0,
+  "stdout_b64": "W2FiY10KW3hdCg==",
+  "tags": []
+ },
+ "read -r and backslash": {
+  "rc": 0,
+  "stdout_b64": "W2FcdGJdIFtjXCBkXQpbYXRiXSBbYyBkXQo=",
+  "tags": []
+ },
+ "read basic": {
+  "rc": 0,
+  "stdout_b64": "dGhyZWUgdHdvIG9uZQpbb25lXSBbdHdvIHRocmVlXQpbb25lIHR3byB0aHJlZV0KW29uZSB0d28gdGhyZWVdCg==",
+  "tags": []
+ },
+ "read eof status": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MSBbbm8gbmV3bGluZV0Kc3Q9MSBbXQo=",
+  "tags": []
+ },
+ "read loop last line without newline": {
+  "rc": 0,
+  "stdout_b64": "PGE+CjxiPgo=",
+  "tags": []
+ },
+ "read multiple lines sequentially": {
+  "rc": 0,
+  "stdout_b64": "MTIzCg==",
+  "tags": []
+ },
+ "read whitespace handling": {
+  "rc": 0,
+  "stdout_b64": "W2xlYWQgIHRyYWlsXQpbICBsZWFkICB0cmFpbCAgXQpbICBsZWFkICB0cmFpbCAgXQo=",
+  "tags": []
+ },
+ "read with IFS": {
+  "rc": 0,
+  "stdout_b64": "YXxifGM6ZAphfGI6YzpkCjQK",
+  "tags": []
+ },
+ "readonly": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MSAxCnN0PTEK",
+  "tags": []
+ },
+ "set -u": {
+  "rc": 0,
+  "stdout_b64": "ZGVmaW5lZCBmYWxsYmFjawpzdD0xCltdCg==",
+  "tags": []
+ },
+ "set -x trace": {
+  "rc": 0,
+  "stdout_b64": "dHJhY2VkCnRyYWNlIG9mZgo=",
+  "tags": []
+ },
+ "set positional and options": {
+  "rc": 0,
+  "stdout_b64": "MyBiCjAKeApubyBlcnJleGl0CmVycmV4aXQgb24K",
+  "tags": []
+ },
+ "shift": {
+  "rc": 0,
+  "stdout_b64": "MiAzIDQgNQo0IDUKc3Q9MSA0IDUK",
+  "tags": []
+ },
+ "shopt nocasematch": {
+  "rc": 0,
+  "stdout_b64": "Y2kKY2ktY2FzZQpjcwo=",
+  "tags": []
+ },
+ "source": {
+  "rc": 0,
+  "stdout_b64": "c3Q9Mwpmcm9tX2xpYgpsaWIgZnVuYyB4CmRvdCBvawo=",
+  "tags": []
+ },
+ "source with args": {
+  "rc": 0,
+  "stdout_b64": "YXJnczogMSBwYXNzZWQKb3JpZwphcmdzOiAxIG9yaWcK",
+  "tags": []
+ },
+ "temp env for function and builtin": {
+  "rc": 0,
+  "stdout_b64": "VD10ZW1wCmFmdGVyOiBbXQo=",
+  "tags": []
+ },
+ "test numeric errors": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MgpzdD0wCnN0PTEK",
+  "tags": []
+ },
+ "test string operators": {
+  "rc": 0,
+  "stdout_b64": "bHQKZXEtc3BhY2UKegpkYXNoCmJhbmcK",
+  "tags": []
+ },
+ "trap ERR": {
+  "rc": 0,
+  "stdout_b64": "ZXJyIGF0IHN0YXR1cyAxCmRvbmUK",
+  "tags": []
+ },
+ "trap EXIT": {
+  "rc": 4,
+  "stdout_b64": "bWFpbgpleGl0IHRyYXAgNAo=",
+  "tags": []
+ },
+ "trap EXIT in function and subshell": {
+  "rc": 0,
+  "stdout_b64": "aW4tc3ViCnN1Yi1leGl0CmFmdGVyLXN1YgpvdXRlci1leGl0Cg==",
+  "tags": []
+ },
+ "trap reset and list": {
+  "rc": 0,
+  "stdout_b64": "dHJhcCAtLSAnZWNobyBmaW5hbCcgRVhJVApmaW5hbAo=",
+  "tags": []
+ },
+ "type and command -v": {
+  "rc": 0,
+  "stdout_b64": "ZWNobyBpcyBhIHNoZWxsIGJ1aWx0aW4KZWNobwpzdD0xCnN0PTEK",
+  "tags": []
+ },
+ "unset": {
+  "rc": 0,
+  "stdout_b64": "W3Vuc2V0XQoxCjAK",
+  "tags": []
+ },
+ "wait for multiple jobs": {
+  "rc": 0,
+  "stdout_b64": "am9iIDEKam9iIDIKam9iIDMKYWxsLWRvbmUK",
+  "tags": []
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "background and wait": {
+  "rc": 0,
+  "stdout_b64": "YmcKZmcKd2FpdGVkIDAKc3RhdHVzIDMK",
+  "tags": []
+ },
+ "close stdin": {
+  "rc": 0,
+  "stdout_b64": "cmFuCg==",
+  "tags": []
+ },
+ "command substitution with pipes": {
+  "rc": 0,
+  "stdout_b64": "MyBsaW5lcwp5Cg==",
+  "tags": []
+ },
+ "custom fds": {
+  "rc": 0,
+  "stdout_b64": "bGluZSBhCmxpbmUgYgpsaW5lIGF8bGluZSBiCg==",
+  "tags": []
+ },
+ "dev null": {
+  "rc": 0,
+  "stdout_b64": "MAo=",
+  "tags": []
+ },
+ "fd duplication": {
+  "rc": 0,
+  "stdout_b64": "dmlhIGZkMwp0byBzdGRvdXQK",
+  "tags": []
+ },
+ "heredoc basic": {
+  "rc": 0,
+  "stdout_b64": "bGluZSAxCmxpbmUgMgo=",
+  "tags": []
+ },
+ "heredoc in pipeline and multiple": {
+  "rc": 0,
+  "stdout_b64": "UElQRUQKZmlyc3QKc2Vjb25kCg==",
+  "tags": []
+ },
+ "heredoc quoted delimiter": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gJG5hbWUgJChlY2hvIG5vKSBgbm9gCmFsc28gJG5hbWUK",
+  "tags": []
+ },
+ "heredoc tab stripping": {
+  "rc": 0,
+  "stdout_b64": "aW5kZW50ZWQgd2l0aCB0YWIKdHdvIHRhYnMK",
+  "tags": []
+ },
+ "heredoc to variable and function": {
+  "rc": 0,
+  "stdout_b64": "Y2FwdHVyZWQKdGV4dAp0byBmdW5jdGlvbgo=",
+  "tags": []
+ },
+ "heredoc with expansion": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gd29ybGQKc3VtOiAzCmNtZDogc3ViCmxpdGVyYWw6ICRuYW1lCg==",
+  "tags": []
+ },
+ "herestring": {
+  "rc": 0,
+  "stdout_b64": "aGVyZSBzdHJpbmcKYiBhCjMK",
+  "tags": []
+ },
+ "input redirect": {
+  "rc": 0,
+  "stdout_b64": "Y29udGVudApbY29udGVudF0K",
+  "tags": []
+ },
+ "nested command substitution and quotes": {
+  "rc": 0,
+  "stdout_b64": "YSBiIGMKcXVvInRlCg==",
+  "tags": []
+ },
+ "noclobber and force": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MQpjCg==",
+  "tags": []
+ },
+ "output redirect and append": {
+  "rc": 0,
+  "stdout_b64": "b25lCnR3bwowCg==",
+  "tags": []
+ },
+ "pipe stderr too": {
+  "rc": 0,
+  "stdout_b64": "ZXJyCm91dAo=",
+  "tags": []
+ },
+ "pipeline exit status": {
+  "rc": 0,
+  "stdout_b64": "MQowCjEKMQo=",
+  "tags": []
+ },
+ "pipeline producer stops early": {
+  "rc": 0,
+  "stdout_b64": "MQoyCjMKeQp5Cg==",
+  "tags": []
+ },
+ "pipeline with compound commands": {
+  "rc": 0,
+  "stdout_b64": "MQoyCjMKYQpiCngKZ290IHAKZ290IHEK",
+  "tags": []
+ },
+ "pipelines": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8KMQozCjE5Cg==",
+  "tags": []
+ },
+ "process substitution input": {
+  "rc": 0,
+  "stdout_b64": "c2FtZQpmcm9tLXByb2NzdWIK",
+  "tags": []
+ },
+ "read from stdin in subshell pipeline keeps position": {
+  "rc": 0,
+  "stdout_b64": "YS1iCmMK",
+  "tags": []
+ },
+ "redirect errors": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MQpzdD0xCnN0aWxsIHJ1bm5pbmcK",
+  "tags": []
+ },
+ "redirect order matters": {
+  "rc": 0,
+  "stdout_b64": "Y2FwdHVyZWQ6ZXJyCg==",
+  "tags": []
+ },
+ "redirect to and from same loop": {
+  "rc": 0,
+  "stdout_b64": "Mgo0CjYK",
+  "tags": []
+ },
+ "stderr redirect": {
+  "rc": 0,
+  "stdout_b64": "b3V0CmVycgpvdXQKZXJyCm91dAplcnIyCm91dDIK",
+  "tags": []
+ },
+ "stdout stderr swap": {
+  "rc": 0,
+  "stdout_b64": "RTplCg==",
+  "tags": []
+ },
+ "tee": {
+  "rc": 0,
+  "stdout_b64": "REFUQQpkYXRhCmRhdGEKZGF0YQptb3JlCg==",
+  "tags": []
+ }
+}

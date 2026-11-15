@@ -1,0 +1,127 @@
+{
+ "BASH_REMATCH array": {
+  "rc": 0,
+  "stdout_b64": "MjAyNi0xMS0xNSAyMDI2IDExIDE1IDQK",
+  "tags": []
+ },
+ "PIPESTATUS": {
+  "rc": 0,
+  "stdout_b64": "MCAxIDAKMSAwCg==",
+  "tags": []
+ },
+ "array assignment and append": {
+  "rc": 0,
+  "stdout_b64": "MSAyIDMgc2l4IDQgMCAxIDIgNQoxeCBUV08gMyBzaXgK",
+  "tags": []
+ },
+ "array copy and join": {
+  "rc": 0,
+  "stdout_b64": "MgphIGIsYwo=",
+  "tags": []
+ },
+ "array element with default": {
+  "rc": 0,
+  "stdout_b64": "ZGVmYXVsdCB4Cg==",
+  "tags": []
+ },
+ "array from command substitution": {
+  "rc": 0,
+  "stdout_b64": "MyB6Cg==",
+  "tags": []
+ },
+ "array from glob": {
+  "rc": 0,
+  "stdout_b64": "MiBmMS5kYXQgZjIuZGF0Cg==",
+  "tags": []
+ },
+ "array in arithmetic": {
+  "rc": 0,
+  "stdout_b64": "NTAgMTAgMTEKOTkK",
+  "tags": []
+ },
+ "array length of empty and unset": {
+  "rc": 0,
+  "stdout_b64": "MAowCm9rCg==",
+  "tags": []
+ },
+ "array negative index": {
+  "rc": 0,
+  "stdout_b64": "YyBiCg==",
+  "tags": []
+ },
+ "array of arrays simulation": {
+  "rc": 0,
+  "stdout_b64": "MCAxIDIgMwo=",
+  "tags": []
+ },
+ "array slice": {
+  "rc": 0,
+  "stdout_b64": "YiBjIGQgZSB8IGIgYyB8IGQgZQo=",
+  "tags": []
+ },
+ "array transformations": {
+  "rc": 0,
+  "stdout_b64": "YXBwbGUgYmFuYW5hIGNoZXJyeS5tZApBcHBsZS50eHQgYkFuYW5hLnR4dCBjaGVycnkubWQKQXBwbGUudHh0IEJhbmFuYS50eHQgQ2hlcnJ5Lm1kCnR4dCB0eHQgbWQK",
+  "tags": []
+ },
+ "array unset element": {
+  "rc": 0,
+  "stdout_b64": "YSBjIGQgMyAwIDIgMwpbXSAwCg==",
+  "tags": []
+ },
+ "array with spaces": {
+  "rc": 0,
+  "stdout_b64": "PHggeT4KPHo+Cjx4Pgo8eT4KPHo+Cjx4IHkgej4K",
+  "tags": []
+ },
+ "associative array": {
+  "rc": 0,
+  "stdout_b64": "cmVkIHllbGxvdyB2IDMKcmVkCg==",
+  "tags": []
+ },
+ "associative array literal and keys": {
+  "rc": 0,
+  "stdout_b64": "YT0xCmI9MgpjPTMKMSAyIDMgCg==",
+  "tags": []
+ },
+ "associative increment": {
+  "rc": 0,
+  "stdout_b64": "YSAzCmIgMgpjIDEK",
+  "tags": []
+ },
+ "associative unset and test": {
+  "rc": 0,
+  "stdout_b64": "MQpoYXMteQpuby14Cnktc2V0Cg==",
+  "tags": []
+ },
+ "declare -a and local arrays": {
+  "rc": 0,
+  "stdout_b64": "MyAyCjEK",
+  "tags": []
+ },
+ "indexed array basics": {
+  "rc": 0,
+  "stdout_b64": "b25lIHR3byB0aHJlZSBbXQpvbmUgdHdvIHRocmVlIDMgMwpvbmUK",
+  "tags": []
+ },
+ "loop over indices": {
+  "rc": 0,
+  "stdout_b64": "MD14CjE9eQoyPXoK",
+  "tags": []
+ },
+ "mapfile": {
+  "rc": 0,
+  "stdout_b64": "MyBsMgo=",
+  "tags": []
+ },
+ "read into array": {
+  "rc": 0,
+  "stdout_b64": "MyBiCjMgego=",
+  "tags": []
+ },
+ "scalar as array": {
+  "rc": 0,
+  "stdout_b64": "c2NhbGFyIDEgc2NhbGFyCg==",
+  "tags": []
+ }
+}

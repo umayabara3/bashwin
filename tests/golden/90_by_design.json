@@ -1,0 +1,16 @@
+{
+ "syntax error is detected before anything runs": {
+  "rc": 2,
+  "stdout_b64": "",
+  "tags": [
+   "differs"
+  ]
+ },
+ "type -t reports applets as builtin": {
+  "rc": 0,
+  "stdout_b64": "YnVpbHRpbgpidWlsdGluCg==",
+  "tags": [
+   "differs"
+  ]
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "base64 and checksums": {
+  "rc": 0,
+  "stdout_b64": "YUdWc2JHOD0KaGVsbG8KNWQ0MTQwMmFiYzRiMmE3NmI5NzE5ZDkxMTAxN2M1OTIgIC0KMmNmMjRkYmE1ZmIwYTMwZTI2ZTgzYjJhYzViOWUyOWUxYjE2MWU1YzFmYTc0MjVlNzMwNDMzNjI5MzhiOTgyNCAgLQpiMTk0NmFjOTI0OTJkMjM0N2M2MjM1YjRkMjYxMTE4NCAgaC50eHQKZjU3MmQzOTZmYWU5MjA2NjI4NzE0ZmIyY2UwMGY3MmU5NGYyMjU4ZiAgaC50eHQKaC50eHQ6IE9LCg==",
+  "tags": []
+ },
+ "cat": {
+  "rc": 0,
+  "stdout_b64": "YQpiCmMKICAgICAxCWEKICAgICAyCWIKYQpiCmEKYgpjCmMKc3Q9MQo=",
+  "tags": []
+ },
+ "crlf handling with tr and sed": {
+  "rc": 0,
+  "stdout_b64": "MDAwMDAwMCBhIFxuIGIgXG4KNjEwYTYyMGEKMDAwMDAwMCBhIFxyIFxuIGIgXHIgXG4KMDAwMDAwNgo=",
+  "tags": []
+ },
+ "csv processing": {
+  "rc": 0,
+  "stdout_b64": "MTAwKzI1MCs3NQo0MjUKYm9iCjQKYWxpY2UgICAgMTAwCmJvYiAgICAgIDI1MApjYXJvbCAgICAgNzUK",
+  "tags": []
+ },
+ "cut": {
+  "rc": 0,
+  "stdout_b64": "YgplCm5vZGVsaW0KYTpjCmQ6Zgpub2RlbGltCmI6YwplOmYKbm9kZWxpbQphCmQKaGVsbG8Kd29ybGQKYgo=",
+  "tags": []
+ },
+ "diff and cmp": {
+  "rc": 1,
+  "stdout_b64": "MmMyCjwgYgotLS0KPiB4CnN0PTEKc3Q9MApGaWxlcyBkMSBhbmQgZDIgZGlmZmVyCnN0PTEKc3Q9MQpzdD0wCjJhMyw0Cj4gYwo+IGQKMyw0ZDIKPCBjCjwgZAo=",
+  "tags": []
+ },
+ "expr": {
+  "rc": 0,
+  "stdout_b64": "MwozCjIwCjEKNQplbGwKMwozCmVsbAoxCjAKc3Q9MQowCnN0PTEK",
+  "tags": []
+ },
+ "grep basic": {
+  "rc": 0,
+  "stdout_b64": "YXBwbGUKYXBwbGUKQXBwbGUgcGllCmFwcGxlCmNoZXJyeQpBcHBsZSBwaWUKMgozOmNoZXJyeQpiYW5hbmEKY2hlcnJ5CmZvdW5kCm5vdCBmb3VuZApzdD0xCg==",
+  "tags": []
+ },
+ "grep context": {
+  "rc": 0,
+  "stdout_b64": "NQo2CjQKNQo0LTQKNTo1CjYtNgoxCjEwCg==",
+  "tags": []
+ },
+ "grep in pipeline and stdin": {
+  "rc": 1,
+  "stdout_b64": "dHdvCjI6YgowCg==",
+  "tags": []
+ },
+ "grep multiple files and options": {
+  "rc": 0,
+  "stdout_b64": "YS50eHQ6eQpiLnR4dDp5CmEudHh0CmIudHh0CmIudHh0CnkKeQphLnR4dDoxCmIudHh0OjEKYS50eHQ6eApiLnR4dDp6CmEudHh0OngK",
+  "tags": []
+ },
+ "grep recursive": {
+  "rc": 0,
+  "stdout_b64": "ZC9lL2YudHh0Om5lZWRsZQpkL2UvZi50eHQKZC9lL2YudHh0OjEKZC9nLnR4dDowCg==",
+  "tags": []
+ },
+ "grep regex flavors": {
+  "rc": 0,
+  "stdout_b64": "NQphYgphYWIKYWJiCmFiYzEyMwphYgphYWIKYWJiCmFiYzEyMwphYgphYmMxMjMKYStiCmFiYzEyMwphYmMxMjMKYWIKYWIKMTIzCg==",
+  "tags": []
+ },
+ "head and tail": {
+  "rc": 0,
+  "stdout_b64": "MQoyCjMKMQoyCjE5CjIwCjE5CjIwCjEKMgoxCjIKMwo1CjEK",
+  "tags": []
+ },
+ "iconv": {
+  "rc": 0,
+  "stdout_b64": "ODM2NTgzNTg4MzY3CuODhuOCueODiAo=",
+  "tags": []
+ },
+ "multibyte text": {
+  "rc": 0,
+  "stdout_b64": "OAroqp7mnKzml6UK44GC44GE44GGCuOBhOOCjeOBrwrmnbHkuqzlupwKMQrml6XmnKzoqp5BQkMKNSDjgpPjgasK",
+  "tags": []
+ },
+ "rev tac nl paste": {
+  "rc": 0,
+  "stdout_b64": "Y2JhCjMKMgoxCiAgICAgMQlhCiAgICAgMgliCmEsYixjCjEJeAoyCXkKMTp4CjI6eQo=",
+  "tags": []
+ },
+ "sed addresses": {
+  "rc": 0,
+  "stdout_b64": "MgoyCjMKNAo2CjEgMyA0IDUgNiAKMQozIDQgNSAKMSAzIDQgNSA2IAoxIDMgNSAKMSAyIDMgCjIgMyAK",
+  "tags": []
+ },
+ "sed commands": {
+  "rc": 0,
+  "stdout_b64": "YSBhZnRlciBiIGFmdGVyIGMgYWZ0ZXIgCmEgYmVmb3JlIGIgYyAKYSBjaGFuZ2VkIGMgCnggeSB6IAozCjEgMiBjIAoxIGIgMyAKYSBCIEIgYyAKYStiCmMKYSBiCmMK",
+  "tags": []
+ },
+ "sed delete patterns": {
+  "rc": 0,
+  "stdout_b64": "a2VlcAprZWVwMgp0cmltfAo=",
+  "tags": []
+ },
+ "sed hold space and reverse": {
+  "rc": 0,
+  "stdout_b64": "MwoyCjEKYQoKYgoKazE9djEKazI9djIK",
+  "tags": []
+ },
+ "sed in place": {
+  "rc": 0,
+  "stdout_b64": "YmF6CmJhcgpiYXoKcXV4CmJhegpiYXIK",
+  "tags": []
+ },
+ "sed special chars": {
+  "rc": 0,
+  "stdout_b64": "YVhiKmMKYS5iWWMKYQpiCnRhYiBoZXJlCmEvYgplbmQhCj4gc3RhcnQKYgooVVBQRVIpIGxvd2VyCg==",
+  "tags": []
+ },
+ "sed substitute": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gdGhlcmUKYmFhCmJiYgphYmEKcGF0aC10bwpwYXRoLXRvCngKYVtiXWMKc21pdGgsIGpvaG4Kc21pdGgsIGpvaG4K",
+  "tags": []
+ },
+ "seq": {
+  "rc": 0,
+  "stdout_b64": "MQoyCjMKMgozCjQKMQozCjUKNwo1CjMKMQoxLDIsMyw0CjA4CjA5CjEwCjAuNQoxLjAKMS41CjIuMAo=",
+  "tags": []
+ },
+ "sort basic": {
+  "rc": 0,
+  "stdout_b64": "YXBwbGUKYXBwbGUKYmFuYW5hCmNoZXJyeQpjaGVycnkKYmFuYW5hCmFwcGxlCmFwcGxlCmFwcGxlCmJhbmFuYQpjaGVycnkKMQoxMAoxMDAKOQoxCjkKMTAKMTAwCjEwMAoxMAo5CjEK",
+  "tags": []
+ },
+ "sort case and stability": {
+  "rc": 0,
+  "stdout_b64": "QQpCCmEKYgpBCmEKQgpiCjAgYwoxIGIKMSBhCg==",
+  "tags": []
+ },
+ "sort keys": {
+  "rc": 0,
+  "stdout_b64": "YyAxIHoKYSAxMCB5CmIgMiB4CmEgMyB3CmMgMSB6CmIgMiB4CmEgMyB3CmEgMTAgeQphIDMgdwphIDEwIHkKYiAyIHgKYyAxIHoKYyAxIHoKYiAyIHgKYSAzIHcKYSAxMCB5Cnk6YQp4OmIKYiwxCmMsMgphLDMK",
+  "tags": []
+ },
+ "tee and pipes combined": {
+  "rc": 0,
+  "stdout_b64": "YgphCmEKYgo=",
+  "tags": []
+ },
+ "text pipeline word frequency": {
+  "rc": 0,
+  "stdout_b64": "ICAgICAgMyB0aGUKICAgICAgMSBicm93bgogICAgICAxIGRvZwo=",
+  "tags": []
+ },
+ "tr": {
+  "rc": 0,
+  "stdout_b64": "SEVMTE8KaGVvCmEgYiBjCmhlbGxvCkhFTExPCmEgYiBjCmF4eAphCmIKcGF0aAp0bwpmaWxlCg==",
+  "tags": []
+ },
+ "uniq": {
+  "rc": 0,
+  "stdout_b64": "YQpiCmEKYwogICAgICAyIGEKICAgICAgMSBiCiAgICAgIDEgYQogICAgICAyIGMKYQpjCmIKYQogICAgICAzIGEK",
+  "tags": []
+ },
+ "wc": {
+  "rc": 0,
+  "stdout_b64": "MiB3LnR4dAozCjE0CiAyICAzIDE0IHcudHh0CiAyIHcudHh0CiAyIHcudHh0CiA0IHRvdGFsCjAKMwo=",
+  "tags": []
+ }
+}
