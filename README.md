@@ -6,6 +6,8 @@ Windows で **bash スクリプトをそのまま実行する**ための、純 P
 - `grep` `sed` `awk` `sort` `find` など **74 個のコマンドを内蔵**。Windows に Unix コマンドが無くても動く
 - 外部コマンド（`java.exe` `sqlplus.exe` `robocopy.exe` …）は本物の子プロセスとして起動し、終了コードをそのまま返す
 - 実行時に AI もネットワークも使わない
+- **Bash → PowerShell トランスパイラー**（`--ps1`）も同梱。Python を置けない実行機向けに、単体で動く `.ps1` を生成する。
+  対象は「EXE を順に呼び、終了コードで分岐する」範囲に限る。**PowerShell 上での実行検証は未実施**（[docs/TRANSPILER.md](docs/TRANSPILER.md)）
 
 名前は仮称。置き換える場合はパッケージ名 `bashwin` と環境変数接頭辞 `BASHWIN_` を一括置換する。
 
@@ -46,10 +48,12 @@ python dist\bashwin.pyz --inventory job.sh
 
 | 測ったもの | 結果 |
 |---|---|
-| 本物の bash 5.2 との突き合わせ（stdout のバイト一致＋終了コード） | 475 / 475 件一致 |
+| 本物の bash 5.2 との突き合わせ（stdout のバイト一致＋終了コード） | 494 / 494 件一致 |
 | bashwin 固有機能のテスト | 12 / 12 件 |
 | Python 3.8 互換（構文検査＋最小バージョン解析） | 問題なし（静的検査） |
 | Windows 固有ロジック（パス対応付け・起動判定・終了コード） | 机上シミュレーション 6 / 6 件 |
+| トランスパイラーの静的検査（構文の対応、5.1 で使えない書き方の不使用、fail-closed） | 全項目通過 |
+| **トランスパイラーの生成物を PowerShell で実行** | **未実施**（`python tests\run_ps1.py` で測る） |
 | **Windows 実機での実行** | **未実施**（下の手順で測る） |
 
 Windows 実機では、まずこれを実行する（bash は不要。約 30 秒）。
@@ -69,19 +73,24 @@ python tests\run_golden.py --report golden_windows.md
 | [docs/OPERATIONS.md](docs/OPERATIONS.md) | 立場ごとの使い方、役割×時間軸の運用確認表 |
 | [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md) | 対応構文・内蔵コマンド・未対応・bash との差異・Windows の注意 |
 | [docs/VERIFICATION.md](docs/VERIFICATION.md) | 検証方法と結果、未検証事項、実機での再測定手順、性能 |
-| [docs/ALT_A_powershell_transpiler.md](docs/ALT_A_powershell_transpiler.md) | 代替案 A：「実行機に Python を置けない」場合 |
+| [docs/TRANSPILER.md](docs/TRANSPILER.md) | Bash → PowerShell トランスパイラー：使い方、変換できる範囲、bash との差異、検証の状況 |
+| [docs/ALT_A_powershell_transpiler.md](docs/ALT_A_powershell_transpiler.md) | 代替案 A：「実行機に Python を置けない」場合の比較と適用範囲の実測 |
 | [docs/ALT_B_existing_binaries.md](docs/ALT_B_existing_binaries.md) | 代替案 B：「自作を保守したくない」場合 |
 
 ## フォルダ構成
 
 ```
 bashwin/            本体（パーサ、展開、実行エンジン、組み込み、内蔵コマンド）
+bashwin/ps_emit.py  トランスパイラーの生成器（判定器を兼ねる）
+bashwin/ps_runtime.ps1  生成物に埋め込む PowerShell ランタイム
 dist/bashwin.pyz    単一ファイル配布物（python bashwin.pyz ... で実行）
 examples/           夜間バッチの見本
 tests/spec/         テストケース（#### 区切り。bash と bashwin の両方で実行する）
 tests/golden/       本物の bash の出力（bash の無い環境での再生用）
 tests/run_diff.py   差分テスト（bash が必要。Linux で実行）
 tests/run_golden.py ゴールデン再生テスト（bash 不要。Windows 実機用）
+tests/run_ps1.py    トランスパイラーの実行検証（変換 → PowerShell で実行 → golden と比較）
+tests/test_ps1_static.py  トランスパイラーの静的検査（PowerShell 不要）
 docs/               設計・運用・互換性・検証・代替案
 ```
 

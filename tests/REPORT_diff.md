@@ -3,7 +3,7 @@
 - 基準: `GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)`
 - 対象: bashwin on Python 3.13.18 (linux)
 - 判定: stdout のバイト一致 + 終了コード一致
-- 結果: **487 / 487 合格**
+- 結果: **506 / 506 合格**
 
 | ファイル | ケース数 | 合格 | 不一致 |
 |---|---:|---:|---|
@@ -14,7 +14,7 @@
 | 05_functions.sh | 25 | 25 | - |
 | 06_redir_pipe.sh | 30 | 30 | - |
 | 07_builtins.sh | 43 | 43 | - |
-| 08_errexit.sh | 30 | 30 | - |
+| 08_errexit.sh | 33 | 33 | - |
 | 09_text.sh | 33 | 33 | - |
 | 10_files.sh | 26 | 26 | - |
 | 11_misc.sh | 30 | 30 | - |
@@ -24,6 +24,7 @@
 | 15_scripts.sh | 7 | 7 | - |
 | 16_scripts2.sh | 8 | 8 | - |
 | 17_options.sh | 22 | 22 | - |
+| 18_ps1_subset.sh | 16 | 16 | - |
 | 80_bashwin_only.sh | 12 | 12 | - |
 
 ## 設計上の差異(合否に数えない)

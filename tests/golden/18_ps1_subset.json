@@ -1,0 +1,82 @@
+{
+ "ps1 case patterns classes and quoting": {
+  "rc": 0,
+  "stdout_b64": "YXBwbGUtbGlrZQp1cHBlcjpCYW5hbmEKdHdvIGRpZ2l0cwpkYXNoCnNwYWNlCmxpdGVyYWwgc3RhcgplbXB0eQpjbGFzcyBvawo=",
+  "tags": []
+ },
+ "ps1 cd changes the directory of child processes": {
+  "rc": 0,
+  "stdout_b64": "cHdkLW9rCnB3ZC1idWlsdGluLW9rCnN1YgpmaWxlLWluLXN1YgpkaXIKY2QgZmFpbGVkIDEKc3ViCmNkIGluIHN1YnN0aXR1dGlvbiBkaWQgbm90IGxlYWsK",
+  "tags": []
+ },
+ "ps1 command substitution of an external command": {
+  "rc": 0,
+  "stdout_b64": "W2xpbmUxCmxpbmUyXQo0MwpzdD03IFtdCmlubGluZSBYIGVuZAo=",
+  "tags": []
+ },
+ "ps1 environment export and unset reach child processes": {
+  "rc": 0,
+  "stdout_b64": "aGVsbG8gd29ybGR8PHVuc2V0PgpjaGFuZ2VkCjx1bnNldD4KaW5uZXIKPHVuc2V0Pgppbi1zdWJzaGVsbAo8dW5zZXQ+Cg==",
+  "tags": []
+ },
+ "ps1 errexit with external commands": {
+  "rc": 9,
+  "stdout_b64": "aGFuZGxlZCAyCmJlZm9yZQo=",
+  "tags": []
+ },
+ "ps1 external command arguments are passed exactly": {
+  "rc": 0,
+  "stdout_b64": "YSBifGMiZHxlXGZ8Z1wiaHx0YWlsXHx8eCB5XHwtbnwlUEFUSCUK",
+  "tags": []
+ },
+ "ps1 external exit status and conditions": {
+  "rc": 0,
+  "stdout_b64": "c3Q9MwpvawpubyAxCm5lZz0wCm1pc3Npbmc9MTI3Cg==",
+  "tags": []
+ },
+ "ps1 functions return values recursion and dynamic dispatch": {
+  "rc": 0,
+  "stdout_b64": "MzYyODgwMAp6ZXJvCnRocmVlIDMKNDQKZHluIDQKdmlhLWJ1aWx0aW4KZnVuY3Rpb24gd2lucwpjb3VudGVyPTIK",
+  "tags": []
+ },
+ "ps1 loops break continue and c-style for": {
+  "rc": 0,
+  "stdout_b64": "aT0wCmk9MgppPTMKMXgKbj0wCnN0PTAKMTQgMjggLTMgMiAxIDAgMTUgNiAyNAo=",
+  "tags": []
+ },
+ "ps1 nounset with positional parameters and defaults": {
+  "rc": 1,
+  "stdout_b64": "bm9uZSAwCnggMQpmYWxsYmFjawo=",
+  "tags": []
+ },
+ "ps1 output bytes are exact": {
+  "rc": 0,
+  "stdout_b64": "5pel5pys6KqeIOODhuOCueODiApzaW5nbGUgJHggYGJ0YCAiZHEiIHRhYgllbmQKYmFja1xzbGFzaCAkZG9sbGFyIGB0aWNrYAphICBiIFthICBiXQpubyBuZXdsaW5lCgoKY3VybHkg4oCccXVvdGVz4oCdIGFuZCDigJhzaW5nbGXigJkK",
+  "tags": []
+ },
+ "ps1 parameter defaults and error exit": {
+  "rc": 1,
+  "stdout_b64": "W2QxXSBbZDJdIFtdIFtdIFthbHRdIFtdClthc3NpZ25lZF0gW2Fzc2lnbmVkXQpiZWZvcmUK",
+  "tags": []
+ },
+ "ps1 positional parameters set shift and at": {
+  "rc": 0,
+  "stdout_b64": "MyBvbmUKMiB0d28gd29yZHMKPHR3byB3b3Jkcz4KPHRocmVlPgozIFt0d28gd29yZHNdIFt0aHJlZV0KMCBbXSBbXQpzaGlmdCBmYWlsZWQKMApkb25lCg==",
+  "tags": []
+ },
+ "ps1 redirect external and builtin output to files": {
+  "rc": 0,
+  "stdout_b64": "bm9uZW1wdHkKZmlyc3QKc2Vjb25kCnRoaXJkCmVtcHRpZWQKcmVkaXJlY3QgZmFpbGVkIDEK",
+  "tags": []
+ },
+ "ps1 stderr redirections": {
+  "rc": 0,
+  "stdout_b64": "bwpjYXB0dXJlZC1zdGRlcnIKW0VdClt0by1zdGRvdXRdCmJvdGgtb2sKZzEKZzIKbG9vcCAxCmxvb3AgMgo=",
+  "tags": []
+ },
+ "ps1 tilde home and string tests": {
+  "rc": 0,
+  "stdout_b64": "L2N1c3RvbS9ob21lIC9jdXN0b20vaG9tZS9zdWIgfiBhfmIKL2N1c3RvbS9ob21lL2RhdGEKbHQKbm9uZW1wdHkKc2V0CnByZWZpeAo=",
+  "tags": []
+ }
+}

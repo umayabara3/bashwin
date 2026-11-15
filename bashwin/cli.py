@@ -23,6 +23,10 @@ options:
   -e -u -x -f      same as `set -e/-u/-x/-f`
   -o NAME          same as `set -o NAME` (errexit nounset pipefail xtrace igncr ...)
   --inventory      list the commands a script uses (builtins / applets / external)
+  --ps1            transpile the script to a self-contained PowerShell 5.1 file (.ps1)
+  --ps1-out FILE   where --ps1 writes (default: next to the script; `-` = stdout)
+  --ps1-tools external   treat Unix tool names (grep, sed ...) as external programs
+  --ps1-force      let --ps1 overwrite a file that bashwin did not generate
   --ps1-check      report whether the script fits the PowerShell-transpilable subset
   --applets        list built-in commands
   --version        show version
@@ -53,6 +57,10 @@ def main(argv):
     check = False
     from_stdin = False
     ps1 = False
+    ps1_gen = False
+    ps1_out = None
+    ps1_tools = 'block'
+    ps1_force = False
     inventory = False
     i = 0
     while i < len(argv):
@@ -76,6 +84,22 @@ def main(argv):
             check = True
         elif a == '--ps1-check':
             ps1 = True
+        elif a == '--ps1':
+            ps1_gen = True
+        elif a == '--ps1-force':
+            ps1_force = True
+        elif a in ('--ps1-out', '--ps1-tools'):
+            i += 1
+            if i >= len(argv):
+                sys.stderr.write('bashwin: %s: option requires an argument\n' % a)
+                return 2
+            if a == '--ps1-out':
+                ps1_out = argv[i]
+            elif argv[i] in ('block', 'external'):
+                ps1_tools = argv[i]
+            else:
+                sys.stderr.write('bashwin: --ps1-tools: block or external\n')
+                return 2
         elif a == '--inventory':
             inventory = True
         elif a == '-c':
@@ -110,15 +134,17 @@ def main(argv):
         else:
             from_stdin = True
 
-    if ps1 or inventory:
+    if ps1 or ps1_gen or inventory:
         if script is None:
             sys.stderr.write('bashwin: a script file is required\n')
             return 2
         if inventory:
             from .inventory import inventory_file
             return inventory_file(script)
-        from .ps_subset import check_file
-        return check_file(script)
+        from .ps_emit import check_file, transpile_file
+        if ps1_gen:
+            return transpile_file(script, ps1_out, ps1_tools, ps1_force)
+        return check_file(script, ps1_tools)
 
     if command is not None:
         argv0 = rest[0] if rest else 'bashwin'
