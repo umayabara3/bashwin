@@ -59,3 +59,15 @@
 
 スクリプトは共通なので、開発 PC では Git Bash、実行機では bashwin、という併用もできる。
 その場合、`tests/run_golden.py` を両方の環境で流しておくと、挙動差を事前に把握できる。
+
+## 6. Git Bash を実測する
+
+Linux の bash から取った正解データ（494 件）を、Git Bash で再生して比べる。
+
+```
+python tests\run_golden.py --shell "C:\Program Files\Git\bin\bash.exe" --report gitbash.md
+```
+
+不一致の一覧が `gitbash.md` に出る。Git Bash を本命にするなら、ここに出た差異（引数の書き換えなど）が
+自分たちのジョブに当たるかどうかを先に見る。Linux の bash を指定した場合は 494 件すべて一致する（確認済み）。
+この手順を Windows の Git Bash で実行したことは、まだ無い。

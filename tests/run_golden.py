@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""ゴールデン再生テスト(bash が無い環境 = Windows 実機用の計測キット)。
+r"""ゴールデン再生テスト(bash が無い環境 = Windows 実機用の計測キット)。
 
 tests/golden/*.json には「本物の bash 5.2 が出した stdout と終了コード」が入っている。
 このスクリプトは同じケースを手元の Python + bashwin で実行して突き合わせる。
@@ -9,6 +9,8 @@ tests/golden/*.json には「本物の bash 5.2 が出した stdout と終了コ
     python tests/run_golden.py -k awk -v    # 絞り込み + 差分表示
     python tests/run_golden.py --report out.md
     python tests/run_golden.py --pyz dist/bashwin.pyz   # 配布物そのものを検査
+    python tests/run_golden.py --shell "C:\Program Files\Git\bin\bash.exe" --report gitbash.md
+                                            # bashwin ではなく別のシェル(Git Bash など)を測る
 
 Windows では [posix] タグ付きケース(シンボリックリンク、パーミッションビット、
 大文字小文字を区別するファイル名など)を自動で除外する。
@@ -87,9 +89,16 @@ def main():
     ap.add_argument('--timeout', type=int, default=60)
     ap.add_argument('--report', default=None, help='Markdown レポートの出力先')
     ap.add_argument('--pyz', default=None, help='ソースではなく配布物 bashwin.pyz で実行する')
+    ap.add_argument('--shell', default=None,
+                    help='bashwin の代わりに、指定したシェル(例: Git for Windows の bash.exe)で'
+                         '実行して bash の正解データと比べる')
     args = ap.parse_args()
+    shell = None
     if args.pyz:
         RUNNER[:] = [sys.executable, os.path.abspath(args.pyz)]
+    if args.shell:
+        shell = shutil.which(args.shell) or args.shell
+        RUNNER[:] = [shell]
 
     env = dict(os.environ)
     for k in list(env):
@@ -99,7 +108,14 @@ def main():
     env.update({'LC_ALL': 'C.UTF-8', 'LANG': 'C.UTF-8', 'TZ': 'UTC',
                 'PY': sys.executable.replace('\\', '/'), 'PYTHONPATH': REPO,
                 'PYTHONDONTWRITEBYTECODE': '1', 'PYTHONIOENCODING': 'utf-8'})
-    if IS_WIN:
+    if shell:
+        # 別のシェルを測るときは、そのシェルに付属するコマンド群を使わせる(PATH は絞らない)
+        dirs = [os.path.dirname(os.path.abspath(shell))]
+        usr = os.path.join(os.path.dirname(dirs[0]), 'usr', 'bin')     # Git for Windows の配置
+        if os.path.isdir(usr):
+            dirs.append(usr)
+        env['PATH'] = os.pathsep.join(dirs + [os.environ.get('PATH', '')])
+    elif IS_WIN:
         env['PATH'] = pydir       # 外部コマンドに頼らず内蔵コマンドだけで動くことを確かめる
     else:
         binroot = tempfile.mkdtemp(prefix='bwbin-')
@@ -121,6 +137,9 @@ def main():
             if IS_WIN and 'posix' in g.get('tags', []):
                 skipped += 1
                 continue
+            if shell and ('own' in g.get('tags', []) or 'differs' in g.get('tags', [])):
+                skipped += 1      # bashwin 固有の機能・設計差異のケースは別シェルでは測らない
+                continue
             exp_out = base64.b64decode(g['stdout_b64'])
             out, rc, err = run_case(scripts[name], env, args.timeout)
             ok = out == exp_out and rc == g['rc']
@@ -136,11 +155,13 @@ def main():
     passed = sum(1 for r in results if r[2])
     summary = '%d/%d passed, %d skipped (%.1fs)  Python %s on %s' % (
         passed, total, skipped, time.time() - t0, sys.version.split()[0], sys.platform)
+    if shell:
+        summary += '  shell: %s' % shell
     print('\n' + summary)
     if args.report:
         with open(args.report, 'w', encoding='utf-8') as f:
-            f.write('# ゴールデン再生テスト結果\n\n- %s\n- 実行ファイル: `%s`\n\n' % (summary,
-                                                                              sys.executable))
+            f.write('# ゴールデン再生テスト結果\n\n- %s\n- 実行ファイル: `%s`\n\n' % (
+                summary, shell or sys.executable))
             fails = [r for r in results if not r[2]]
             if not fails:
                 f.write('不一致なし。\n')

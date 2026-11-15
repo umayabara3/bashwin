@@ -9,6 +9,19 @@ Windows で **bash スクリプトをそのまま実行する**ための、純 P
 - **Bash → PowerShell トランスパイラー**（`--ps1`）も同梱。Python を置けない実行機向けに、単体で動く `.ps1` を生成する。
   対象は「EXE を順に呼び、終了コードで分岐する」範囲に限る。**PowerShell 上での実行検証は未実施**（[docs/TRANSPILER.md](docs/TRANSPILER.md)）
 
+## 現在の状態（2026-11-15）：保留
+
+Git for Windows に付属する bash（Git Bash）がバッチの実行機でも使えるなら、自作の大半は不要になる
+（[docs/ALT_B_existing_binaries.md](docs/ALT_B_existing_binaries.md)）。それを先に確かめるため、開発を止めている。
+
+| 再開前に決めること・測ること | 方法 |
+|---|---|
+| 実行機に Git for Windows があるか、バッチ実行に使ってよいか | 運用部門に確認 |
+| Git Bash が Linux の bash と同じに動くか（引数の書き換え、改行、文字コードなど） | `python tests\run_golden.py --shell "C:\Program Files\Git\bin\bash.exe" --report gitbash.md` |
+
+止めた時点で未了のもの：インタープリターの Windows 実機検証（`tests\run_golden.py`）、
+トランスパイラーの PowerShell 実行検証（`tests\run_ps1.py`。生成物は 1 度も実行していない）、トランスパイラーの第 2 段。
+
 名前は仮称。置き換える場合はパッケージ名 `bashwin` と環境変数接頭辞 `BASHWIN_` を一括置換する。
 
 ## 動かす
