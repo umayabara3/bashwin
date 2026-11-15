@@ -171,7 +171,7 @@ touch file; mkdir dir
 echo x > file
 [ -s file ] && echo nonempty
 [ -r file ] && [ -w file ] && echo rw
-[ file -nt dir ] || [ file -ot dir ] || echo same-time-or-ok
+[ file -nt file ] || [ file -ot file ] || echo not-newer-or-older-than-itself
 #### select-like menu with case in function
 choose() { case $1 in 1) echo first;; 2) echo second;; *) return 1;; esac; }
 choose 1; choose 2; choose 9 || echo invalid

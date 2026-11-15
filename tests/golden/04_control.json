@@ -126,7 +126,7 @@
  },
  "test file operators": {
   "rc": 0,
-  "stdout_b64": "ZQpmCmQKbm90ZgplbXB0eQpub25lbXB0eQpydwo=",
+  "stdout_b64": "ZQpmCmQKbm90ZgplbXB0eQpub25lbXB0eQpydwpub3QtbmV3ZXItb3Itb2xkZXItdGhhbi1pdHNlbGYK",
   "tags": []
  },
  "while and until": {

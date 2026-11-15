@@ -1,4 +1,9 @@
 {
+ "ERR trap follows the same compound-command rule": {
+  "rc": 0,
+  "stdout_b64": "bm8gdHJhcCB5ZXQKRVJSLWZpcmVkCnN0PTEK",
+  "tags": []
+ },
  "ERR trap with errexit": {
   "rc": 1,
   "stdout_b64": "RVJSIHRyYXAKRVhJVCB0cmFwCg==",
@@ -27,6 +32,11 @@
  "errexit function in condition is ignored": {
   "rc": 0,
   "stdout_b64": "Y29udGludWVzIGluIGYKZiBvawpjb250aW51ZXMgaW4gZgplbmQK",
+  "tags": []
+ },
+ "errexit ignores compound commands whose failure was in an ignored context": {
+  "rc": 1,
+  "stdout_b64": "YWZ0ZXIgaWYgc3Q9MQphZnRlciBncm91cAphZnRlciBmb3IKYWZ0ZXIgY2FzZQphZnRlciB3aGlsZQo=",
   "tags": []
  },
  "errexit in function": {
@@ -70,6 +80,11 @@
   "tags": []
  },
  "errexit pipefail": {
+  "rc": 1,
+  "stdout_b64": "",
+  "tags": []
+ },
+ "errexit still fires for a failing subshell and pipeline": {
   "rc": 1,
   "stdout_b64": "",
   "tags": []

@@ -158,3 +158,29 @@ eval 'echo $((1/0)) 2>/dev/null; echo never'; echo "eval contained"
 set -e
 echo $((1/0)) 2>/dev/null; echo never
 echo "errexit does not fire on expansion errors"
+#### errexit ignores compound commands whose failure was in an ignored context
+set -e
+if true; then false && true; fi
+echo "after if st=$?"
+{ false && true; }
+echo "after group"
+for i in 1; do false && true; done
+echo "after for"
+case x in x) false && true;; esac
+echo "after case"
+n=0; while [ $n -lt 1 ]; do n=1; false && true; done
+echo "after while"
+f() { if true; then false && true; fi; }
+f
+echo "not reached: a function call is a simple command"
+#### errexit still fires for a failing subshell and pipeline
+set -e
+( false && true )
+echo "not reached: subshell"
+#### ERR trap follows the same compound-command rule
+trap 'echo ERR-fired' ERR
+if true; then false && true; fi
+{ false && true; }
+echo "no trap yet"
+false
+echo "st=$?"

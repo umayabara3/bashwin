@@ -29,7 +29,10 @@ from .nodes import (Lit, Word, ArrayLit, Simple, Pipeline, AndOr, List, If, Whil
                     CFor, Case, Group, Subshell, FuncDef, Cond, ArithCmd)
 from .parser import parse, ParseError
 
-VERSION = '0.1.0'
+VERSION = '0.2.0'
+
+# set -e (errexit) と ERR トラップの判定対象になる構文
+_ERREXIT_NODES = frozenset((Simple, Cond, ArithCmd, Subshell, Pipeline))
 IS_WIN = osdep.IS_WIN
 DECL_BUILTINS = frozenset(('declare', 'typeset', 'local', 'export', 'readonly'))
 _VALID_NAME = re.compile(r'[A-Za-z_][A-Za-z0-9_]*$')
@@ -744,7 +747,10 @@ class Interp(ExpandMixin):
         """リストの 1 要素を実行し、errexit / ERR トラップの判定を行う。"""
         tp = type(node)
         st = self.run(node)
-        if st != 0 and tp is not AndOr and tp is not List and self.cond_depth == 0 \
+        # errexit の判定対象は「単純コマンド・[[ ]]・(( ))・サブシェル・パイプライン」だけ。
+        # if/for/while/case/{ } は、中の失敗が -e 無視の文脈(&& の左辺など)で起きて
+        # 非 0 を返しても、それ自体では終了しない(bash と同じ)。
+        if st != 0 and tp in _ERREXIT_NODES and self.cond_depth == 0 \
                 and not (tp is Pipeline and node.negate):
             self.on_error(st)
         return st
